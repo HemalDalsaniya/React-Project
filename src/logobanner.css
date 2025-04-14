@@ -1,0 +1,14 @@
+  @keyframes scroll-logos {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll-logos {
+    animation: scroll-logos 15s linear infinite;
+    display: flex;
+    white-space: nowrap;
+  }

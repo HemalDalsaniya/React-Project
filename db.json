@@ -1,0 +1,1595 @@
+{
+  "aboutUs": [
+    {
+      "id": "1",
+      "image": "/images/aboutUs/aboutUs1.png"
+    },
+    {
+      "id": "2",
+      "image": "/images/aboutUs/aboutUs2.png"
+    },
+    {
+      "id": "3",
+      "image": "/images/aboutUs/aboutUs3.png"
+    },
+    {
+      "id": "4",
+      "image": "/images/aboutUs/aboutUs4.png"
+    }
+  ],
+  "whyKoala": [
+    {
+      "id": "1",
+      "image": "/images/whyKoala/whyKoala1.png",
+      "title": "We are a part of 1% for the Planet",
+      "description": "We're the first Australian mattress and furniture retailer to join the 1% for the Planet movement, which means we give away one percent of gross sales annually for the good of the planet, people and animals."
+    },
+    {
+      "id": "2",
+      "image": "/images/whyKoala/whyKoala2.png",
+      "title": "We’re proudly a B-Corp business",
+      "description": "We’re proud to be B-Corp certified, which means we stick to the highest social and environmental standards. We’re stoked to be a part of a group of companies working together to build a more inclusive and sustainable economy."
+    },
+    {
+      "id": "3",
+      "image": "/images/whyKoala/whyKoala3.png",
+      "title": "Help us save the koala",
+      "description": "Poaching and habitat loss have forced koalas on the endangered species list. We’ve partnered with the WWF Australia so every mattress purchase helps protect our koalas."
+    }
+  ],
+  "registrations": [
+    {
+      "id": "b764",
+      "Name": "HVD",
+      "Email": "hvd@gmail.com",
+      "Password": "Hd@111",
+      "Subject": "Help Placing a New Order",
+      "Message": "I want help for new order"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "2ff8",
+      "Name": "HD",
+      "Email": "hd@gmail.com"
+    }
+  ],
+  "sofasheader": [
+    {
+      "id": "1",
+      "image": "/images/sofas/sofa9.png",
+      "title": "All Sofas",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "image": "/images/sofas/sofa10.png",
+      "title": "Sofas",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "image": "/images/sofas/sofa11.png",
+      "title": "Sofa Beds",
+      "url": "sofabeds"
+    },
+    {
+      "id": "4",
+      "image": "/images/sofas/sofa12.png",
+      "title": "Modular Sofas",
+      "url": ""
+    },
+    {
+      "id": "5",
+      "image": "/images/sofas/sofa13.png",
+      "title": "Chaise Sofas",
+      "url": ""
+    },
+    {
+      "id": "6",
+      "image": "/images/sofas/sofa14.png",
+      "title": "Corner Sofas",
+      "url": ""
+    },
+    {
+      "id": "7",
+      "image": "/images/sofas/sofa15.png",
+      "title": "Armchairs",
+      "url": ""
+    },
+    {
+      "id": "8",
+      "image": "/images/sofas/sofa16.png",
+      "title": "Ottomans",
+      "url": ""
+    },
+    {
+      "id": "9",
+      "image": "/images/sofas/sofa17.png",
+      "title": "Sofa Modules",
+      "url": ""
+    }
+  ],
+  "sofacolors": [
+    {
+      "id": "1",
+      "color": "Beige",
+      "colorcode": "#F8EFE0"
+    },
+    {
+      "id": "2",
+      "color": "Black",
+      "colorcode": "#000000"
+    },
+    {
+      "id": "3",
+      "color": "Blue",
+      "colorcode": "#B5C8D6"
+    },
+    {
+      "id": "4",
+      "color": "Brown",
+      "colorcode": "#78350F"
+    },
+    {
+      "id": "5",
+      "color": "Green",
+      "colorcode": "#959889"
+    },
+    {
+      "id": "6",
+      "color": "Grey",
+      "colorcode": "#9e9e9e"
+    },
+    {
+      "id": "7",
+      "color": "Orange",
+      "colorcode": "#b7791f"
+    },
+    {
+      "id": "8",
+      "color": "Pink",
+      "colorcode": "#D29380"
+    }
+  ],
+  "sofasizes": [
+    {
+      "id": "1",
+      "size": "1.5 Seater"
+    },
+    {
+      "id": "2",
+      "size": "2 Seater"
+    },
+    {
+      "id": "3",
+      "size": "2.5 Seater"
+    },
+    {
+      "id": "4",
+      "size": "3 Seater"
+    },
+    {
+      "id": "5",
+      "size": "3.5 Seater"
+    },
+    {
+      "id": "6",
+      "size": "4 Seater"
+    },
+    {
+      "id": "7",
+      "size": "4.5 Seater"
+    },
+    {
+      "id": "8",
+      "size": "5 Seater"
+    },
+    {
+      "id": "9",
+      "size": "5.5 Seater"
+    },
+    {
+      "id": "10",
+      "size": "6 Seater"
+    },
+    {
+      "id": "11",
+      "size": "7 Seater"
+    },
+    {
+      "id": "12",
+      "size": "8 Seater"
+    },
+    {
+      "id": "13",
+      "size": "10 Seater"
+    }
+  ],
+  "sofas": [
+    {
+      "id": "72",
+      "title": "Bungalow Modular sofa",
+      "size": "3 Seater",
+      "price": "1800",
+      "color": "Green",
+      "image": "/images/sofas/sofa18.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "73",
+      "title": "Koala Sofa Bed",
+      "size": "2.5 Seater",
+      "price": "1390",
+      "color": "Green",
+      "image": "/images/sofas/sofa19.png",
+      "review": "4.7",
+      "description": "The award-winning Koala Sofa Bed transforms from sofa to bed in seconds, turning any space into a comfy sleep spot. Previously known as the Cushy Sofa Bed."
+    },
+    {
+      "id": "74",
+      "title": "Modern Sofa",
+      "size": "3 Seater",
+      "price": "1690",
+      "color": "Grey",
+      "image": "/images/sofas/sofa20.png",
+      "review": "4.6",
+      "description": "The Koala Modern Sofa is the 2024 Product Review Award Winner, designed with all the generous comfort features we’re famous for, and luxury perks for less."
+    },
+    {
+      "id": "75",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Beige",
+      "image": "/images/sofas/sofa21.png",
+      "review": "4.7",
+      "description": "This luxurious sofa features a hidden bed with a premium mattress, deep plush seating, hidden storage, and a breathable platform base, combining elegance with practical comfort."
+    },
+    {
+      "id": "76",
+      "title": "Lounging Sofa",
+      "size": "3 Seater",
+      "price": "1190",
+      "color": "Grey",
+      "image": "/images/sofas/sofa22.png",
+      "review": "4.6",
+      "description": "The Koala Lounging Sofa is our most nappable sofa. Our OG design, now with removable, washable sofa covers and a singular seat cushion made for stretching out and snuggling up, the Koala Lounging Sofa has all the comfort and convenience you deserve in a timeless sofa."
+    },
+    {
+      "id": "77",
+      "title": "OG Bed",
+      "size": "3 Seater",
+      "price": "1290",
+      "color": "Beige",
+      "image": "/images/sofas/sofa23.png",
+      "review": "4.6",
+      "description": "Famous for our mattresses, we know what it takes to make the perfect sofa bed. And our customers agree, awarding our OG Sofa Bed the 2025 ProductReview.com.au Award with hundreds of five-star reviews."
+    },
+    {
+      "id": "78",
+      "title": "Suffolk Sofa ",
+      "size": "3.5 Seater",
+      "price": "1250",
+      "color": "Green",
+      "image": "/images/sofas/sofa24.png",
+      "review": "4.7",
+      "description": "The Suffolk Sofa is a designer sofa, made for real people. With modern looks, washable covers and tool-free assembly, you can upgrade your style without changing your whole lifestyle."
+    },
+    {
+      "id": "79",
+      "title": "Stunner Sofa Bed",
+      "size": "3 Seater",
+      "price": "2190",
+      "color": "Beige",
+      "image": "/images/sofas/sofa25.png",
+      "review": "4.3",
+      "description": "Make some space with the Stunner Sofa Bed. Cleverly designed to elevate your sofa bed sleep situation. With an integrated Kloudcell® topper for mattress-like feel and a raised platform for off-the-floor comfort."
+    },
+    {
+      "id": "80",
+      "title": "Wanda Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "3150",
+      "color": "Beige",
+      "image": "/images/sofas/sofa26.png",
+      "review": "4.7",
+      "description": "Wanda is the ultimate chaise sofa, daybed, and queen-sized bed — all in one."
+    },
+    {
+      "id": "81",
+      "title": "Getaway Sofa",
+      "size": "3 Seater",
+      "price": "1790",
+      "color": "Grey",
+      "image": "/images/sofas/sofa27.png",
+      "review": "4.6",
+      "description": "Relax into the best seat in the house with our most comfortable sofa yet. With seamlessly integrated storage, flexible configuration, and stain-resistant fabric on select colours, it’s made to handle whatever life throws your way."
+    },
+    {
+      "id": "82",
+      "title": "Suffolk Sofa ",
+      "size": "2.5 Seater",
+      "price": "1250",
+      "color": "Blue",
+      "image": "/images/sofas/sofa29.png",
+      "review": "4.7",
+      "description": "The Suffolk Sofa is a designer sofa, made for real people. With modern looks, washable covers and tool-free assembly, you can upgrade your style without changing your whole lifestyle."
+    },
+    {
+      "id": "83",
+      "title": "Bungalow Modular Sofa",
+      "size": "2 Seater",
+      "price": "1800",
+      "color": "Beige",
+      "image": "/images/sofas/sofa28.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "84",
+      "title": "Koala Sofa Bed",
+      "size": "3 Seater",
+      "price": "1390",
+      "color": "Black",
+      "image": "/images/sofas/sofa30.png",
+      "review": "4.7",
+      "description": "The award-winning Koala Sofa Bed transforms from sofa to bed in seconds, turning any space into a comfy sleep spot. Previously known as the Cushy Sofa Bed."
+    },
+    {
+      "id": "85",
+      "title": "Modern Sofa",
+      "size": "3 Seater",
+      "price": "1690",
+      "color": "Blue",
+      "image": "/images/sofas/sofa31.png",
+      "review": "4.6",
+      "description": "The Koala Modern Sofa is the 2024 Product Review Award Winner, designed with all the generous comfort features we’re famous for, and luxury perks for less."
+    },
+    {
+      "id": "86",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Blue",
+      "image": "/images/sofas/sofa35.png",
+      "review": "4.7",
+      "description": "This luxurious sofa features a hidden bed with a premium mattress, deep plush seating, hidden storage, and a breathable platform base, combining elegance with practical comfort."
+    },
+    {
+      "id": "87",
+      "title": "Suffolk Sofa ",
+      "size": "2.5 Seater",
+      "price": "1250",
+      "color": "Pink",
+      "image": "/images/sofas/sofa32.png",
+      "review": "4.7",
+      "description": "The Suffolk Sofa is a designer sofa, made for real people. With modern looks, washable covers and tool-free assembly, you can upgrade your style without changing your whole lifestyle."
+    },
+    {
+      "id": "88",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Brown",
+      "image": "/images/sofas/sofa33.png",
+      "review": "4.7",
+      "description": "This luxurious sofa features a hidden bed with a premium mattress, deep plush seating, hidden storage, and a breathable platform base, combining elegance with practical comfort."
+    },
+    {
+      "id": "89",
+      "title": "OG Sofa Bed",
+      "size": "1.5 Seater",
+      "price": "1290",
+      "color": "Blue",
+      "image": "/images/sofas/sofa37.png",
+      "review": "4.6",
+      "description": "Famous for our mattresses, we know what it takes to make the perfect sofa bed. And our customers agree, awarding our OG Sofa Bed the 2025 ProductReview.com.au Award with hundreds of five-star reviews."
+    },
+    {
+      "id": "90",
+      "title": "Lounging Sofa",
+      "size": "3 Seater",
+      "price": "1190",
+      "color": "Green",
+      "image": "/images/sofas/sofa34.png",
+      "review": "4.6",
+      "description": "The Koala Lounging Sofa is our most nappable sofa. Our OG design, now with removable, washable sofa covers and a singular seat cushion made for stretching out and snuggling up, the Koala Lounging Sofa has all the comfort and convenience you deserve in a timeless sofa."
+    },
+    {
+      "id": "91",
+      "title": "Bungalow Modular Sofa",
+      "size": "2 Seater",
+      "price": "1800",
+      "color": "Orange",
+      "image": "/images/sofas/sofa39.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "92",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Pink",
+      "image": "/images/sofas/sofa41.png",
+      "review": "4.7",
+      "description": "This luxurious sofa features a hidden bed with a premium mattress, deep plush seating, hidden storage, and a breathable platform base, combining elegance with practical comfort."
+    },
+    {
+      "id": "93",
+      "title": "OG Sofa Bed",
+      "size": "1.5 Seater",
+      "price": "1290",
+      "color": "Green",
+      "image": "/images/sofas/sofa36.png",
+      "review": "4.6",
+      "description": "Famous for our mattresses, we know what it takes to make the perfect sofa bed. And our customers agree, awarding our OG Sofa Bed the 2025 ProductReview.com.au Award with hundreds of five-star reviews."
+    },
+    {
+      "id": "94",
+      "title": "Suffolk Sofa ",
+      "size": "2.5 Seater",
+      "price": "1250",
+      "color": "Orange",
+      "image": "/images/sofas/sofa40.png",
+      "review": "4.7",
+      "description": "The Suffolk Sofa is a designer sofa, made for real people. With modern looks, washable covers and tool-free assembly, you can upgrade your style without changing your whole lifestyle."
+    },
+    {
+      "id": "95",
+      "title": "Stunner Sofa Bed",
+      "size": "3 Seater",
+      "price": "2190",
+      "color": "Green",
+      "image": "/images/sofas/sofa38.png",
+      "review": "4.3",
+      "description": "Make some space with the Stunner Sofa Bed. Cleverly designed to elevate your sofa bed sleep situation. With an integrated Kloudcell® topper for mattress-like feel and a raised platform for off-the-floor comfort."
+    },
+    {
+      "id": "96",
+      "title": "Bungalow Modular Sofa",
+      "size": "10 Seater",
+      "price": "1800",
+      "color": "Beige",
+      "image": "/images/sofas/sofa50.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "97",
+      "title": "Bungalow Modular Sofa",
+      "size": "5 Seater",
+      "price": "1800",
+      "color": "Beige",
+      "image": "/images/sofas/sofa43.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "98",
+      "title": "Bungalow Modular Sofa",
+      "size": "6 Seater",
+      "price": "3800",
+      "color": "Beige",
+      "image": "/images/sofas/sofa46.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "99",
+      "title": "Modern Sofa",
+      "size": "4.5 Seater",
+      "price": "1690",
+      "color": "Beige",
+      "image": "/images/sofas/sofa44.png",
+      "review": "4.6",
+      "description": "The Koala Modern Sofa is the 2024 Product Review Award Winner, designed with all the generous comfort features we’re famous for, and luxury perks for less."
+    },
+    {
+      "id": "100",
+      "title": "Bungalow Modular Sofa",
+      "size": "7 Seater",
+      "price": "1900",
+      "color": "Beige",
+      "image": "/images/sofas/sofa47.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "101",
+      "title": "Getaway Sofa",
+      "size": "5 Seater",
+      "price": "1700",
+      "color": "Grey",
+      "image": "/images/sofas/sofa45.png",
+      "review": "4.6",
+      "description": "Relax into the best seat in the house with our most comfortable sofa yet. With seamlessly integrated storage, flexible configuration, and stain-resistant fabric on select colours, it’s made to handle whatever life throws your way."
+    },
+    {
+      "id": "102",
+      "title": "Wanda Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "3150",
+      "color": "Pink",
+      "image": "/images/sofas/sofa42.png",
+      "review": "4.7",
+      "description": "Wanda is the ultimate chaise sofa, daybed, and queen-sized bed — all in one."
+    },
+    {
+      "id": "103",
+      "title": "Bungalow Modular Sofa",
+      "size": "8 Seater",
+      "price": "1800",
+      "color": "Green",
+      "image": "/images/sofas/sofa49.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "104",
+      "title": "Getaway Sofa",
+      "size": "7 Seater",
+      "price": "1700",
+      "color": "Grey",
+      "image": "/images/sofas/sofa48.png",
+      "review": "4.6",
+      "description": "Relax into the best seat in the house with our most comfortable sofa yet. With seamlessly integrated storage, flexible configuration, and stain-resistant fabric on select colours, it’s made to handle whatever life throws your way."
+    },
+    {
+      "id": "105",
+      "title": "Modern Sofa",
+      "size": "4 Seater",
+      "price": "2450",
+      "color": "Black",
+      "image": "/images/sofas/sofa51.png",
+      "review": "4.6",
+      "description": "The Koala Modern Sofa is the 2024 Product Review Award Winner, designed with all the generous comfort features we’re famous for, and luxury perks for less."
+    },
+    {
+      "id": "106",
+      "title": "Modern Sofa",
+      "size": "5 Seater",
+      "price": "3190",
+      "color": "Grey",
+      "image": "/images/sofas/sofa52.png",
+      "review": "4.6",
+      "description": "The Koala Modern Sofa is the 2024 Product Review Award Winner, designed with all the generous comfort features we’re famous for, and luxury perks for less."
+    },
+    {
+      "id": "107",
+      "title": "Bungalow Modular Sofa",
+      "size": "6 Seater",
+      "price": "4400",
+      "color": "Orange",
+      "image": "/images/sofas/sofa53.png",
+      "review": "4.7",
+      "description": "The Bangalow Modular Sofa is our most stylish and customisable sofa yet. Featuring a truly modular design that will adapt to suit your lifestyle."
+    },
+    {
+      "id": "108",
+      "title": "OG Bed",
+      "size": "2.5 Seater",
+      "price": "1590",
+      "color": "Green",
+      "image": "/images/sofas/sofa54.png",
+      "review": "4.6",
+      "description": "Famous for our mattresses, we know what it takes to make the perfect sofa bed. And our customers agree, awarding our OG Sofa Bed the 2025 ProductReview.com.au Award with hundreds of five-star reviews."
+    }
+  ],
+  "sofabedsizes": [
+    {
+      "id": "1",
+      "size": "1.5 Seater"
+    },
+    {
+      "id": "2",
+      "size": "2.5 Seater"
+    },
+    {
+      "id": "3",
+      "size": "3 Seater"
+    },
+    {
+      "id": "4",
+      "size": "3.5 Seater"
+    }
+  ],
+  "sofabeds": [
+    {
+      "id": "109",
+      "title": "Koala Sofa Bed",
+      "size": "2.5 Seater",
+      "price": "1390",
+      "color": "Green",
+      "image": "/images/sofas/sofa19.png",
+      "review": "4.7"
+    },
+    {
+      "id": "110",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Beige",
+      "image": "/images/sofas/sofa21.png",
+      "review": "4.7"
+    },
+    {
+      "id": "111",
+      "title": "OG Bed",
+      "size": "3 Seater",
+      "price": "1290",
+      "color": "Beige",
+      "image": "/images/sofas/sofa23.png",
+      "review": "4.6"
+    },
+    {
+      "id": "112",
+      "title": "Stunner Sofa Bed",
+      "size": "3 Seater",
+      "price": "2190",
+      "color": "Beige",
+      "image": "/images/sofas/sofa25.png",
+      "review": "4.3"
+    },
+    {
+      "id": "113",
+      "title": "Wanda Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "3150",
+      "color": "Beige",
+      "image": "/images/sofas/sofa26.png",
+      "review": "4.7"
+    },
+    {
+      "id": "114",
+      "title": "Koala Sofa Bed",
+      "size": "3 Seater",
+      "price": "1390",
+      "color": "Black",
+      "image": "/images/sofas/sofa30.png",
+      "review": "4.7"
+    },
+    {
+      "id": "115",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Blue",
+      "image": "/images/sofas/sofa35.png",
+      "review": "4.7"
+    },
+    {
+      "id": "116",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Brown",
+      "image": "/images/sofas/sofa33.png",
+      "review": "4.7"
+    },
+    {
+      "id": "117",
+      "title": "OG Sofa Bed",
+      "size": "1.5 Seater",
+      "price": "1290",
+      "color": "Blue",
+      "image": "/images/sofas/sofa37.png",
+      "review": "4.6"
+    },
+    {
+      "id": "118",
+      "title": "Byron Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "2290",
+      "color": "Pink",
+      "image": "/images/sofas/sofa41.png",
+      "review": "4.7"
+    },
+    {
+      "id": "119",
+      "title": "OG Sofa Bed",
+      "size": "1.5 Seater",
+      "price": "1290",
+      "color": "Green",
+      "image": "/images/sofas/sofa36.png",
+      "review": "4.6"
+    },
+    {
+      "id": "120",
+      "title": "Stunner Sofa Bed",
+      "size": "3 Seater",
+      "price": "2190",
+      "color": "Green",
+      "image": "/images/sofas/sofa38.png",
+      "review": "4.3"
+    },
+    {
+      "id": "121",
+      "title": "Wanda Sofa Bed",
+      "size": "3.5 Seater",
+      "price": "3150",
+      "color": "Pink",
+      "image": "/images/sofas/sofa42.png",
+      "review": "4.7"
+    },
+    {
+      "id": "122",
+      "title": "OG Bed",
+      "size": "2.5 Seater",
+      "price": "1590",
+      "color": "Green",
+      "image": "/images/sofas/sofa54.png",
+      "review": "4.6"
+    },
+    {
+      "id": "123",
+      "title": "Koala Sofa Bed",
+      "size": "3 Seater",
+      "price": "2090",
+      "color": "Orange",
+      "image": "/images/sofas/sofa55.png",
+      "review": "4.7"
+    },
+    {
+      "id": "124",
+      "title": "Stunner Sofa Bed",
+      "size": "3 Seater",
+      "price": "2290",
+      "color": "Grey",
+      "image": "/images/sofas/sofa56.png",
+      "review": "4.6"
+    }
+  ],
+  "bedroomheader": [
+    {
+      "id": "1",
+      "image": "/images/bedroom/bedroom12.png",
+      "title": "All Bedroom",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "image": "/images/bedroom/bedroom13.png",
+      "title": "Mattresses",
+      "url": "mattresses"
+    },
+    {
+      "id": "3",
+      "image": "/images/bedroom/bedroom14.png",
+      "title": "Bed Bases",
+      "url": ""
+    },
+    {
+      "id": "4",
+      "image": "/images/bedroom/bedroom15.png",
+      "title": "Bedroom Bundles",
+      "url": ""
+    },
+    {
+      "id": "5",
+      "image": "/images/bedroom/bedroom16.png",
+      "title": "Kids Bedroom",
+      "url": ""
+    },
+    {
+      "id": "6",
+      "image": "/images/bedroom/bedroom17.png",
+      "title": "Pillows",
+      "url": ""
+    },
+    {
+      "id": "7",
+      "image": "/images/bedroom/bedroom18.png",
+      "title": "Bedside Tables",
+      "url": ""
+    },
+    {
+      "id": "8",
+      "image": "/images/bedroom/bedroom19.png",
+      "title": "Bed Covers & Sheets",
+      "url": ""
+    },
+    {
+      "id": "9",
+      "image": "/images/bedroom/bedroom20.png",
+      "title": "Mattress Protectors",
+      "url": ""
+    },
+    {
+      "id": "10",
+      "image": "/images/bedroom/bedroom21.png",
+      "title": "Duvets",
+      "url": ""
+    },
+    {
+      "id": "11",
+      "image": "/images/bedroom/bedroom22.png",
+      "title": "Rugs",
+      "url": ""
+    },
+    {
+      "id": "12",
+      "image": "/images/bedroom/bedroom23.png",
+      "title": "Chest Of Drawers",
+      "url": ""
+    }
+  ],
+  "bedroomcolors": [
+    {
+      "id": "1",
+      "color": "Beige",
+      "colorcode": "#F8EFE0"
+    },
+    {
+      "id": "2",
+      "color": "White",
+      "colorcode": "#F5F5F5"
+    },
+    {
+      "id": "3",
+      "color": "Blue",
+      "colorcode": "#B5C8D6"
+    },
+    {
+      "id": "4",
+      "color": "Brown",
+      "colorcode": "#78350F"
+    },
+    {
+      "id": "5",
+      "color": "Green",
+      "colorcode": "#959889"
+    },
+    {
+      "id": "6",
+      "color": "Grey",
+      "colorcode": "#9e9e9e"
+    },
+    {
+      "id": "7",
+      "color": "Orange",
+      "colorcode": "#b7791f"
+    },
+    {
+      "id": "8",
+      "color": "Pink",
+      "colorcode": "#D29380"
+    },
+    {
+      "id": "9",
+      "color": "Purple",
+      "colorcode": "#A76E7A"
+    },
+    {
+      "id": "10",
+      "color": "Yellow",
+      "colorcode": "#FEF08A"
+    },
+    {
+      "id": "11",
+      "color": "Timber",
+      "colorcode": "#c29467"
+    }
+  ],
+  "bedroomsizes": [
+    {
+      "id": "1",
+      "size": "Single"
+    },
+    {
+      "id": "2",
+      "size": "Double"
+    },
+    {
+      "id": "3",
+      "size": "Queen"
+    },
+    {
+      "id": "4",
+      "size": "King"
+    },
+    {
+      "id": "5",
+      "size": "3 Drawers"
+    },
+    {
+      "id": "6",
+      "size": "5 Drawers"
+    },
+    {
+      "id": "7",
+      "size": "160 * 240cm"
+    },
+    {
+      "id": "8",
+      "size": "200 * 300cm"
+    },
+    {
+      "id": "9",
+      "size": "Default"
+    },
+    {
+      "id": "10",
+      "size": "One Size"
+    }
+  ],
+  "bedroom": [
+    {
+      "id": "1",
+      "title": "Koala Mattress",
+      "size": "Queen",
+      "price": "890",
+      "color": "",
+      "image": "/images/bedroom/bedroom24.png",
+      "review": "4.8"
+    },
+    {
+      "id": "2",
+      "title": "Koala Plus Mattress",
+      "size": "Queen",
+      "price": "1050",
+      "color": "",
+      "image": "/images/bedroom/bedroom25.png",
+      "review": "4.8"
+    },
+    {
+      "id": "3",
+      "title": "Koala SE Mattress",
+      "size": "Queen",
+      "price": "650",
+      "color": "",
+      "image": "/images/bedroom/bedroom26.png",
+      "review": "4.8"
+    },
+    {
+      "id": "4",
+      "title": "Koala Luxe Mattress",
+      "size": "Queen",
+      "price": "2090",
+      "color": "",
+      "image": "/images/bedroom/bedroom27.png",
+      "review": "4.9"
+    },
+    {
+      "id": "5",
+      "title": "Kirribilli Bed Base",
+      "size": "Queen",
+      "price": "1150",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom28.png",
+      "review": "4.8"
+    },
+    {
+      "id": "6",
+      "title": "Balmain Bed Base",
+      "size": "Queen",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom29.png",
+      "review": "4.8"
+    },
+    {
+      "id": "7",
+      "title": "Brunswick Bed Base",
+      "size": "Queen",
+      "price": "750",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom30.png",
+      "review": "4.8"
+    },
+    {
+      "id": "8",
+      "title": "Paddington Bed Base",
+      "size": "Queen",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom31.png",
+      "review": "4.3"
+    },
+    {
+      "id": "9",
+      "title": "the Koala Pillow",
+      "size": "One Size",
+      "price": "155",
+      "color": "White",
+      "image": "/images/bedroom/bedroom32.png",
+      "review": "4.6"
+    },
+    {
+      "id": "10",
+      "title": "Joey Kids Mattress",
+      "size": "",
+      "price": "475",
+      "color": "White",
+      "image": "/images/bedroom/bedroom33.png",
+      "review": "4.9"
+    },
+    {
+      "id": "11",
+      "title": "Joey Bed Base ",
+      "size": "",
+      "price": "690",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom34.png",
+      "review": "4.8"
+    },
+    {
+      "id": "12",
+      "title": "Balmain Chest of Drawers",
+      "size": "",
+      "price": "450",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom35.png",
+      "review": "4.7"
+    },
+    {
+      "id": "13",
+      "title": "Sheet Set",
+      "size": "Queen",
+      "price": "185",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom36.png",
+      "review": "4.7"
+    },
+    {
+      "id": "14",
+      "title": "Duvet Cover Set",
+      "size": "Queen",
+      "price": "100",
+      "color": "White",
+      "image": "/images/bedroom/bedroom38.png",
+      "review": "4.6"
+    },
+    {
+      "id": "15",
+      "title": "All Seasons Duvet",
+      "size": "Queen",
+      "price": "245",
+      "color": "",
+      "image": "/images/bedroom/bedroom37.png",
+      "review": "4.7"
+    },
+    {
+      "id": "16",
+      "title": "Great Barrier Mattress Protector",
+      "size": "Queen",
+      "price": "155",
+      "color": "White",
+      "image": "/images/bedroom/bedroom39.png",
+      "review": "4.6"
+    },
+    {
+      "id": "17",
+      "title": "Balmain Chest of Drawers",
+      "size": "5 Drawers",
+      "price": "890",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom40.png",
+      "review": "4.7"
+    },
+    {
+      "id": "18",
+      "title": "Bedside Tables",
+      "size": "Default",
+      "price": "390",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom41.png",
+      "review": "4.8"
+    },
+    {
+      "id": "19",
+      "title": "Balmain Floating Bedside Tables",
+      "size": "",
+      "price": "125",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom42.png",
+      "review": "4.3"
+    },
+    {
+      "id": "20",
+      "title": "Shear Blis Rug",
+      "size": "160 * 240cm",
+      "price": "690",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom43.png",
+      "review": "4.5"
+    },
+    {
+      "id": "21",
+      "title": "Balmy Night Duvet",
+      "size": "Queen",
+      "price": "165",
+      "color": "White",
+      "image": "/images/bedroom/bedroom44.png",
+      "review": "4.5"
+    },
+    {
+      "id": "22",
+      "title": "Reef Rug",
+      "size": "200 * 300cm",
+      "price": "270",
+      "color": "Pink",
+      "image": "/images/bedroom/bedroom45.png",
+      "review": "4.7"
+    },
+    {
+      "id": "23",
+      "title": "Deep Fit Barrier Mattress Protector",
+      "size": "Queen",
+      "price": "195",
+      "color": "White",
+      "image": "/images/bedroom/bedroom46.png",
+      "review": "4.5"
+    },
+    {
+      "id": "24",
+      "title": "Deep Fit Sheet Set",
+      "size": "Queen",
+      "price": "195",
+      "color": "Grey",
+      "image": "/images/bedroom/bedroom47.png",
+      "review": "4.5"
+    },
+    {
+      "id": "25",
+      "title": "Bottlebrush Rug",
+      "size": "200 * 300cm",
+      "price": "450",
+      "color": "Brown",
+      "image": "/images/bedroom/bedroom48.png",
+      "review": "4.5"
+    },
+    {
+      "id": "26",
+      "title": "Joey Guard Rail",
+      "size": "",
+      "price": "100",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom49.png",
+      "review": "4.6"
+    },
+    {
+      "id": "27",
+      "title": "Shear Joey Rug",
+      "size": "160 * 240cm",
+      "price": "520",
+      "color": "Grey",
+      "image": "/images/bedroom/bedroom50.png",
+      "review": "4.6"
+    },
+    {
+      "id": "28",
+      "title": "Outback Rug",
+      "size": "200 * 300cm",
+      "price": "280",
+      "color": "Black",
+      "image": "/images/bedroom/bedroom51.png",
+      "review": "4.9"
+    },
+    {
+      "id": "29",
+      "title": "Sandy Rug",
+      "size": "160 * 240cm",
+      "price": "270",
+      "color": "Black",
+      "image": "/images/bedroom/bedroom52.png",
+      "review": "4.6"
+    },
+    {
+      "id": "30",
+      "title": "Flat Sheet",
+      "size": "Queen",
+      "price": "20",
+      "color": "Blue",
+      "image": "/images/bedroom/bedroom53.png",
+      "review": "4.9"
+    },
+    {
+      "id": "31",
+      "title": "Shear Beauty Rug",
+      "size": "160 * 240cm",
+      "price": "850",
+      "color": "Beige",
+      "image": "/images/bedroom/bedroom54.png",
+      "review": "4.6"
+    },
+    {
+      "id": "32",
+      "title": "Brunswick Bed Base",
+      "size": "Single",
+      "price": "750",
+      "color": "Beige",
+      "image": "/images/bedroom/bedroom55.png",
+      "review": "4.8"
+    },
+    {
+      "id": "33",
+      "title": "Outback Rug",
+      "size": "160 * 240cm",
+      "price": "280",
+      "color": "Orange",
+      "image": "/images/bedroom/bedroom56.png",
+      "review": "4.9"
+    },
+    {
+      "id": "34",
+      "title": "Brunswick Bed Base",
+      "size": "Single",
+      "price": "750",
+      "color": "Black",
+      "image": "/images/bedroom/bedroom57.png",
+      "review": "4.8"
+    },
+    {
+      "id": "35",
+      "title": "Sheet Set",
+      "size": "Double",
+      "price": "185",
+      "color": "Blue",
+      "image": "/images/bedroom/bedroom58.png",
+      "review": "4.6"
+    },
+    {
+      "id": "36",
+      "title": "Duvet Cover Set",
+      "size": "Double",
+      "price": "100",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom59.png",
+      "review": "4.7"
+    },
+    {
+      "id": "37",
+      "title": "Bottlebrush Rug",
+      "size": "160 * 240cm",
+      "price": "450",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom60.png",
+      "review": "4.5"
+    },
+    {
+      "id": "38",
+      "title": "Kirribilli Bed BaseType",
+      "size": "Double",
+      "price": "1150",
+      "color": "Brown",
+      "image": "/images/bedroom/bedroom61.png",
+      "review": "4.8"
+    },
+    {
+      "id": "39",
+      "title": "Shear Bliss Rug",
+      "size": "160 * 240cm",
+      "price": "690",
+      "color": "Beige",
+      "image": "/images/bedroom/bedroom62.png",
+      "review": "4.6"
+    },
+    {
+      "id": "40",
+      "title": "Duvet Cover Set",
+      "size": "Double",
+      "price": "100",
+      "color": "Orange",
+      "image": "/images/bedroom/bedroom63.png",
+      "review": "4.7"
+    },
+    {
+      "id": "41",
+      "title": "Sheet Set",
+      "size": "Double",
+      "price": "190",
+      "color": "Purple",
+      "image": "/images/bedroom/bedroom64.png",
+      "review": "4.8"
+    },
+    {
+      "id": "42",
+      "title": "Duvet Cover Set",
+      "size": "Double",
+      "price": "100",
+      "color": "Yellow",
+      "image": "/images/bedroom/bedroom65.png",
+      "review": "4.7"
+    },
+    {
+      "id": "43",
+      "title": "Bottlebrush Rug",
+      "size": "200 * 300cm",
+      "price": "450",
+      "color": "Yellow",
+      "image": "/images/bedroom/bedroom66.png",
+      "review": "4.5"
+    },
+    {
+      "id": "44",
+      "title": "Koala Mattress",
+      "size": "Single",
+      "price": "890",
+      "color": "",
+      "image": "/images/bedroom/bedroom67.png",
+      "review": "4.7"
+    },
+    {
+      "id": "45",
+      "title": "Koala Plus Mattress",
+      "size": "Single",
+      "price": "1050",
+      "color": "",
+      "image": "/images/bedroom/bedroom68.png",
+      "review": "4.8"
+    },
+    {
+      "id": "46",
+      "title": "Koala SE Mattress",
+      "size": "Single",
+      "price": "650",
+      "color": "",
+      "image": "/images/bedroom/bedroom69.png",
+      "review": "4.8"
+    },
+    {
+      "id": "47",
+      "title": "Koala Mattress",
+      "size": "Double",
+      "price": "890",
+      "color": "",
+      "image": "/images/bedroom/bedroom24.png",
+      "review": "4.8"
+    },
+    {
+      "id": "48",
+      "title": "Koala Plus Mattress",
+      "size": "Double",
+      "price": "1050",
+      "color": "",
+      "image": "/images/bedroom/bedroom25.png",
+      "review": "4.8"
+    },
+    {
+      "id": "49",
+      "title": "Koala SE Mattress",
+      "size": "Double",
+      "price": "650",
+      "color": "",
+      "image": "/images/bedroom/bedroom26.png",
+      "review": "4.8"
+    },
+    {
+      "id": "50",
+      "title": "Koala Luxe Mattress",
+      "size": "Double",
+      "price": "2090",
+      "color": "",
+      "image": "/images/bedroom/bedroom27.png",
+      "review": "4.9"
+    },
+    {
+      "id": "51",
+      "title": "Kirribilli Bed Base",
+      "size": "Double",
+      "price": "1150",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom28.png",
+      "review": "4.8"
+    },
+    {
+      "id": "52",
+      "title": "Balmain Bed Base",
+      "size": "Double",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom29.png",
+      "review": "4.8"
+    },
+    {
+      "id": "53",
+      "title": "Brunswick Bed Base",
+      "size": "Double",
+      "price": "750",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom30.png",
+      "review": "4.8"
+    },
+    {
+      "id": "54",
+      "title": "Paddington Bed Base",
+      "size": "Double",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom31.png",
+      "review": "4.3"
+    },
+    {
+      "id": "55",
+      "title": "Duvet Cover Set",
+      "size": "Double",
+      "price": "100",
+      "color": "White",
+      "image": "/images/bedroom/bedroom38.png",
+      "review": "4.6"
+    },
+    {
+      "id": "56",
+      "title": "All Seasons Duvet",
+      "size": "Double",
+      "price": "245",
+      "color": "",
+      "image": "/images/bedroom/bedroom37.png",
+      "review": "4.7"
+    },
+    {
+      "id": "57",
+      "title": "Great Barrier Mattress Protector",
+      "size": "Double",
+      "price": "155",
+      "color": "White",
+      "image": "/images/bedroom/bedroom39.png",
+      "review": "4.6"
+    },
+    {
+      "id": "58",
+      "title": "Balmy Night Duvet",
+      "size": "Double",
+      "price": "165",
+      "color": "White",
+      "image": "/images/bedroom/bedroom44.png",
+      "review": "4.5"
+    },
+    {
+      "id": "59",
+      "title": "Koala Mattress",
+      "size": "King",
+      "price": "890",
+      "color": "",
+      "image": "/images/bedroom/bedroom24.png",
+      "review": "4.8"
+    },
+    {
+      "id": "60",
+      "title": "Koala Plus Mattress",
+      "size": "King",
+      "price": "1050",
+      "color": "",
+      "image": "/images/bedroom/bedroom25.png",
+      "review": "4.8"
+    },
+    {
+      "id": "61",
+      "title": "Koala SE Mattress",
+      "size": "King",
+      "price": "650",
+      "color": "",
+      "image": "/images/bedroom/bedroom26.png",
+      "review": "4.8"
+    },
+    {
+      "id": "62",
+      "title": "Koala Luxe Mattress",
+      "size": "King",
+      "price": "2090",
+      "color": "",
+      "image": "/images/bedroom/bedroom27.png",
+      "review": "4.9"
+    },
+    {
+      "id": "63",
+      "title": "Kirribilli Bed Base",
+      "size": "King",
+      "price": "1150",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom28.png",
+      "review": "4.8"
+    },
+    {
+      "id": "64",
+      "title": "Balmain Bed Base",
+      "size": "King",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom29.png",
+      "review": "4.8"
+    },
+    {
+      "id": "65",
+      "title": "Brunswick Bed Base",
+      "size": "King",
+      "price": "750",
+      "color": "Green",
+      "image": "/images/bedroom/bedroom30.png",
+      "review": "4.8"
+    },
+    {
+      "id": "66",
+      "title": "Paddington Bed Base",
+      "size": "King",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom31.png",
+      "review": "4.3"
+    },
+    {
+      "id": "67",
+      "title": "Duvet Cover Set",
+      "size": "King",
+      "price": "100",
+      "color": "White",
+      "image": "/images/bedroom/bedroom38.png",
+      "review": "4.6"
+    },
+    {
+      "id": "68",
+      "title": "All Seasons Duvet",
+      "size": "King",
+      "price": "245",
+      "color": "",
+      "image": "/images/bedroom/bedroom37.png",
+      "review": "4.7"
+    },
+    {
+      "id": "69",
+      "title": "Great Barrier Mattress Protector",
+      "size": "King",
+      "price": "155",
+      "color": "White",
+      "image": "/images/bedroom/bedroom39.png",
+      "review": "4.6"
+    },
+    {
+      "id": "70",
+      "title": "Balmy Night Duvet",
+      "size": "King",
+      "price": "165",
+      "color": "White",
+      "image": "/images/bedroom/bedroom44.png",
+      "review": "4.6"
+    },
+    {
+      "id": "71",
+      "title": "Balmain Chest of Drawers",
+      "size": "3 Drawers",
+      "price": "890",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom7.png",
+      "review": "4.8"
+    }
+  ],
+  "cart": [
+    {
+      "id": "6",
+      "title": "Balmain Bed Base",
+      "size": "Queen",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom29.png",
+      "review": "4.8",
+      "quantities": 3
+    },
+    {
+      "id": "111",
+      "title": "OG Bed",
+      "size": "3 Seater",
+      "price": "1290",
+      "color": "Beige",
+      "image": "/images/sofas/sofa23.png",
+      "review": "4.6",
+      "quantities": 2
+    }
+  ],
+  "quizresponses": [
+    {
+      "id": "93d2",
+      "email": "dalsaniyahemal@gmail.com",
+      "answers": [
+        "Myself",
+        "Single(W92*L188)",
+        "Firm",
+        "Back",
+        "It's not a standard size",
+        "$$$$: I'm all for better sleep, budget comes second"
+      ]
+    }
+  ]
+}
