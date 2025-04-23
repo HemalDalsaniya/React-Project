@@ -1576,6 +1576,17 @@
       "image": "/images/sofas/sofa23.png",
       "review": "4.6",
       "quantities": 2
+    },
+    {
+      "id": "78",
+      "title": "Suffolk Sofa ",
+      "size": "3.5 Seater",
+      "price": "1250",
+      "color": "Green",
+      "image": "/images/sofas/sofa24.png",
+      "review": "4.7",
+      "description": "The Suffolk Sofa is a designer sofa, made for real people. With modern looks, washable covers and tool-free assembly, you can upgrade your style without changing your whole lifestyle.",
+      "quantities": 1
     }
   ],
   "quizresponses": [

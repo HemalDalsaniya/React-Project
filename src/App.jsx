@@ -12,7 +12,7 @@ import Chatbox from './Chatbox';
 import Login from './Login';
 import Cart from './components/Cart';
 import Product from './components/Product';
-import PrivacyPolicy from './policies/privacypolicy';
+import PrivacyPolicy from './policies/PrivacyPolicy';
 import WebsiteTerms from './policies/WebsiteTerms';
 import TermsOfServices from './policies/TermsOfServices';
 import PromotionTerms from './policies/PromotionTerms';

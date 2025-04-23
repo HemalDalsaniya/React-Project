@@ -1,4 +1,4 @@
-import './logoBanner.css'; // Import the custom CSS for the animation
+import './logobanner.css'; // Import the custom CSS for the animation
 
 const logos = [
   { src: "/images/logos/refinery29.jpg", alt: "Logo 1" },

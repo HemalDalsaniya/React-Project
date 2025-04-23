@@ -389,7 +389,6 @@ const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);
   const quantities = useSelector((state) => state.cart.quantities);
   const dispatch = useDispatch();
-//  const [isInitialLoad, setIsInitialLoad] = useState(true); // Track initial load
 
   // Fetch cart from DB on component mount
   useEffect(() => {
