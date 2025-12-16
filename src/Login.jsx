@@ -88,8 +88,8 @@ const Login = () => {
 
               <div className="text-sm">
                 <a
-                  target="_blank"
-                  href="https://au.koala.com/64361365640/policies/27680014472.html?locale=en"
+                  target="_blank" href="/policies/privacypolicy"
+                  // href="https://au.koala.com/64361365640/policies/27680014472.html?locale=en"
                   className="hover:underline hover:text-[#586A4D]"
                 >
                   Privacy

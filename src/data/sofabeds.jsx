@@ -145,8 +145,6 @@ const sofabeds = [
     }
   ]
 
-  export default sofabeds
-
   export const sofabedsizes =  [
     {
       "id": "1",
@@ -208,3 +206,5 @@ const sofabeds = [
       "colorcode": "#D29380"
     }
   ]
+
+   export default sofabeds

@@ -1,179 +1,3 @@
-export const bedroomheader = [
-    {
-      "id": "1",
-      "image": "/images/bedroom/bedroom12.png",
-      "title": "All Bedroom",
-      "url": ""
-    },
-    {
-      "id": "2",
-      "image": "/images/bedroom/bedroom13.png",
-      "title": "Mattresses",
-      "url": "mattresses"
-    },
-    {
-      "id": "3",
-      "image": "/images/bedroom/bedroom14.png",
-      "title": "Bed Bases",
-      "url": ""
-    },
-    {
-      "id": "4",
-      "image": "/images/bedroom/bedroom15.png",
-      "title": "Bedroom Bundles",
-      "url": ""
-    },
-    {
-      "id": "5",
-      "image": "/images/bedroom/bedroom16.png",
-      "title": "Kids Bedroom",
-      "url": ""
-    },
-    {
-      "id": "6",
-      "image": "/images/bedroom/bedroom17.png",
-      "title": "Pillows",
-      "url": ""
-    },
-    {
-      "id": "7",
-      "image": "/images/bedroom/bedroom18.png",
-      "title": "Bedside Tables",
-      "url": ""
-    },
-    {
-      "id": "8",
-      "image": "/images/bedroom/bedroom19.png",
-      "title": "Bed Covers & Sheets",
-      "url": ""
-    },
-    {
-      "id": "9",
-      "image": "/images/bedroom/bedroom20.png",
-      "title": "Mattress Protectors",
-      "url": ""
-    },
-    {
-      "id": "10",
-      "image": "/images/bedroom/bedroom21.png",
-      "title": "Duvets",
-      "url": ""
-    },
-    {
-      "id": "11",
-      "image": "/images/bedroom/bedroom22.png",
-      "title": "Rugs",
-      "url": ""
-    },
-    {
-      "id": "12",
-      "image": "/images/bedroom/bedroom23.png",
-      "title": "Chest Of Drawers",
-      "url": ""
-    }
-  ]
-
-export const bedroomcolors = [
-    {
-      "id": "1",
-      "color": "Beige",
-      "colorcode": "#F8EFE0"
-    },
-    {
-      "id": "2",
-      "color": "White",
-      "colorcode": "#F5F5F5"
-    },
-    {
-      "id": "3",
-      "color": "Blue",
-      "colorcode": "#B5C8D6"
-    },
-    {
-      "id": "4",
-      "color": "Brown",
-      "colorcode": "#78350F"
-    },
-    {
-      "id": "5",
-      "color": "Green",
-      "colorcode": "#959889"
-    },
-    {
-      "id": "6",
-      "color": "Grey",
-      "colorcode": "#9e9e9e"
-    },
-    {
-      "id": "7",
-      "color": "Orange",
-      "colorcode": "#b7791f"
-    },
-    {
-      "id": "8",
-      "color": "Pink",
-      "colorcode": "#D29380"
-    },
-    {
-      "id": "9",
-      "color": "Purple",
-      "colorcode": "#A76E7A"
-    },
-    {
-      "id": "10",
-      "color": "Yellow",
-      "colorcode": "#FEF08A"
-    },
-    {
-      "id": "11",
-      "color": "Timber",
-      "colorcode": "#c29467"
-    }
-  ]
-
-export const bedroomsizes = [
-    {
-      "id": "1",
-      "size": "Single"
-    },
-    {
-      "id": "2",
-      "size": "Double"
-    },
-    {
-      "id": "3",
-      "size": "Queen"
-    },
-    {
-      "id": "4",
-      "size": "King"
-    },
-    {
-      "id": "5",
-      "size": "3 Drawers"
-    },
-    {
-      "id": "6",
-      "size": "5 Drawers"
-    },
-    {
-      "id": "7",
-      "size": "160 * 240cm"
-    },
-    {
-      "id": "8",
-      "size": "200 * 300cm"
-    },
-    {
-      "id": "9",
-      "size": "Default"
-    },
-    {
-      "id": "10",
-      "size": "One Size"
-    }
-  ]
-
 const bedroom = [
     {
       "id": "1",
@@ -815,5 +639,183 @@ const bedroom = [
       "review": "4.8"
     }
   ]
+
+
+export const bedroomheader = [
+    {
+      "id": "1",
+      "image": "/images/bedroom/bedroom12.png",
+      "title": "All Bedroom",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "image": "/images/bedroom/bedroom13.png",
+      "title": "Mattresses",
+      "url": "mattresses"
+    },
+    {
+      "id": "3",
+      "image": "/images/bedroom/bedroom14.png",
+      "title": "Bed Bases",
+      "url": ""
+    },
+    {
+      "id": "4",
+      "image": "/images/bedroom/bedroom15.png",
+      "title": "Bedroom Bundles",
+      "url": ""
+    },
+    {
+      "id": "5",
+      "image": "/images/bedroom/bedroom16.png",
+      "title": "Kids Bedroom",
+      "url": ""
+    },
+    {
+      "id": "6",
+      "image": "/images/bedroom/bedroom17.png",
+      "title": "Pillows",
+      "url": ""
+    },
+    {
+      "id": "7",
+      "image": "/images/bedroom/bedroom18.png",
+      "title": "Bedside Tables",
+      "url": ""
+    },
+    {
+      "id": "8",
+      "image": "/images/bedroom/bedroom19.png",
+      "title": "Bed Covers & Sheets",
+      "url": ""
+    },
+    {
+      "id": "9",
+      "image": "/images/bedroom/bedroom20.png",
+      "title": "Mattress Protectors",
+      "url": ""
+    },
+    {
+      "id": "10",
+      "image": "/images/bedroom/bedroom21.png",
+      "title": "Duvets",
+      "url": ""
+    },
+    {
+      "id": "11",
+      "image": "/images/bedroom/bedroom22.png",
+      "title": "Rugs",
+      "url": ""
+    },
+    {
+      "id": "12",
+      "image": "/images/bedroom/bedroom23.png",
+      "title": "Chest Of Drawers",
+      "url": ""
+    }
+  ]
+
+export const bedroomcolors = [
+    {
+      "id": "1",
+      "color": "Beige",
+      "colorcode": "#F8EFE0"
+    },
+    {
+      "id": "2",
+      "color": "White",
+      "colorcode": "#F5F5F5"
+    },
+    {
+      "id": "3",
+      "color": "Blue",
+      "colorcode": "#B5C8D6"
+    },
+    {
+      "id": "4",
+      "color": "Brown",
+      "colorcode": "#78350F"
+    },
+    {
+      "id": "5",
+      "color": "Green",
+      "colorcode": "#959889"
+    },
+    {
+      "id": "6",
+      "color": "Grey",
+      "colorcode": "#9e9e9e"
+    },
+    {
+      "id": "7",
+      "color": "Orange",
+      "colorcode": "#b7791f"
+    },
+    {
+      "id": "8",
+      "color": "Pink",
+      "colorcode": "#D29380"
+    },
+    {
+      "id": "9",
+      "color": "Purple",
+      "colorcode": "#A76E7A"
+    },
+    {
+      "id": "10",
+      "color": "Yellow",
+      "colorcode": "#FEF08A"
+    },
+    {
+      "id": "11",
+      "color": "Timber",
+      "colorcode": "#c29467"
+    }
+  ]
+
+export const bedroomsizes = [
+    {
+      "id": "1",
+      "size": "Single"
+    },
+    {
+      "id": "2",
+      "size": "Double"
+    },
+    {
+      "id": "3",
+      "size": "Queen"
+    },
+    {
+      "id": "4",
+      "size": "King"
+    },
+    {
+      "id": "5",
+      "size": "3 Drawers"
+    },
+    {
+      "id": "6",
+      "size": "5 Drawers"
+    },
+    {
+      "id": "7",
+      "size": "160 * 240cm"
+    },
+    {
+      "id": "8",
+      "size": "200 * 300cm"
+    },
+    {
+      "id": "9",
+      "size": "Default"
+    },
+    {
+      "id": "10",
+      "size": "One Size"
+    }
+  ]
+
 
   export default bedroom

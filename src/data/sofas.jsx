@@ -1,159 +1,4 @@
-export const sofasheader = [
-    {
-      "id": "1",
-      "image": "/images/sofas/sofa9.png",
-      "title": "All Sofas",
-      "url": ""
-    },
-    {
-      "id": "2",
-      "image": "/images/sofas/sofa10.png",
-      "title": "Sofas",
-      "url": ""
-    },
-    {
-      "id": "3",
-      "image": "/images/sofas/sofa11.png",
-      "title": "Sofa Beds",
-      "url": "sofabeds"
-    },
-    {
-      "id": "4",
-      "image": "/images/sofas/sofa12.png",
-      "title": "Modular Sofas",
-      "url": ""
-    },
-    {
-      "id": "5",
-      "image": "/images/sofas/sofa13.png",
-      "title": "Chaise Sofas",
-      "url": ""
-    },
-    {
-      "id": "6",
-      "image": "/images/sofas/sofa14.png",
-      "title": "Corner Sofas",
-      "url": ""
-    },
-    {
-      "id": "7",
-      "image": "/images/sofas/sofa15.png",
-      "title": "Armchairs",
-      "url": ""
-    },
-    {
-      "id": "8",
-      "image": "/images/sofas/sofa16.png",
-      "title": "Ottomans",
-      "url": ""
-    },
-    {
-      "id": "9",
-      "image": "/images/sofas/sofa17.png",
-      "title": "Sofa Modules",
-      "url": ""
-    }
-  ]
-
-export const sofacolors = [
-    {
-      "id": "1",
-      "color": "Beige",
-      "colorcode": "#F8EFE0"
-    },
-    {
-      "id": "2",
-      "color": "Black",
-      "colorcode": "#000000"
-    },
-    {
-      "id": "3",
-      "color": "Blue",
-      "colorcode": "#B5C8D6"
-    },
-    {
-      "id": "4",
-      "color": "Brown",
-      "colorcode": "#78350F"
-    },
-    {
-      "id": "5",
-      "color": "Green",
-      "colorcode": "#959889"
-    },
-    {
-      "id": "6",
-      "color": "Grey",
-      "colorcode": "#9e9e9e"
-    },
-    {
-      "id": "7",
-      "color": "Orange",
-      "colorcode": "#b7791f"
-    },
-    {
-      "id": "8",
-      "color": "Pink",
-      "colorcode": "#D29380"
-    }
-  ]
-  
-  export const sofasizes = [
-    {
-      "id": "1",
-      "size": "1.5 Seater"
-    },
-    {
-      "id": "2",
-      "size": "2 Seater"
-    },
-    {
-      "id": "3",
-      "size": "2.5 Seater"
-    },
-    {
-      "id": "4",
-      "size": "3 Seater"
-    },
-    {
-      "id": "5",
-      "size": "3.5 Seater"
-    },
-    {
-      "id": "6",
-      "size": "4 Seater"
-    },
-    {
-      "id": "7",
-      "size": "4.5 Seater"
-    },
-    {
-      "id": "8",
-      "size": "5 Seater"
-    },
-    {
-      "id": "9",
-      "size": "5.5 Seater"
-    },
-    {
-      "id": "10",
-      "size": "6 Seater"
-    },
-    {
-      "id": "11",
-      "size": "7 Seater"
-    },
-    {
-      "id": "12",
-      "size": "8 Seater"
-    },
-    {
-      "id": "13",
-      "size": "10 Seater"
-    }
-  ]
-
-  const sofas = [
+const sofas = [
     {
       "id": "72",
       "title": "Bungalow Modular sofa",
@@ -525,5 +370,161 @@ export const sofacolors = [
       "description": "Famous for our mattresses, we know what it takes to make the perfect sofa bed. And our customers agree, awarding our OG Sofa Bed the 2025 ProductReview.com.au Award with hundreds of five-star reviews."
     }
   ]
+
+export const sofasheader = [
+    {
+      "id": "1",
+      "image": "/images/sofas/sofa9.png",
+      "title": "All Sofas",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "image": "/images/sofas/sofa10.png",
+      "title": "Sofas",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "image": "/images/sofas/sofa11.png",
+      "title": "Sofa Beds",
+      "url": "sofabeds"
+    },
+    {
+      "id": "4",
+      "image": "/images/sofas/sofa12.png",
+      "title": "Modular Sofas",
+      "url": ""
+    },
+    {
+      "id": "5",
+      "image": "/images/sofas/sofa13.png",
+      "title": "Chaise Sofas",
+      "url": ""
+    },
+    {
+      "id": "6",
+      "image": "/images/sofas/sofa14.png",
+      "title": "Corner Sofas",
+      "url": ""
+    },
+    {
+      "id": "7",
+      "image": "/images/sofas/sofa15.png",
+      "title": "Armchairs",
+      "url": ""
+    },
+    {
+      "id": "8",
+      "image": "/images/sofas/sofa16.png",
+      "title": "Ottomans",
+      "url": ""
+    },
+    {
+      "id": "9",
+      "image": "/images/sofas/sofa17.png",
+      "title": "Sofa Modules",
+      "url": ""
+    }
+  ]
+
+export const sofacolors = [
+    {
+      "id": "1",
+      "color": "Beige",
+      "colorcode": "#F8EFE0"
+    },
+    {
+      "id": "2",
+      "color": "Black",
+      "colorcode": "#000000"
+    },
+    {
+      "id": "3",
+      "color": "Blue",
+      "colorcode": "#B5C8D6"
+    },
+    {
+      "id": "4",
+      "color": "Brown",
+      "colorcode": "#78350F"
+    },
+    {
+      "id": "5",
+      "color": "Green",
+      "colorcode": "#959889"
+    },
+    {
+      "id": "6",
+      "color": "Grey",
+      "colorcode": "#9e9e9e"
+    },
+    {
+      "id": "7",
+      "color": "Orange",
+      "colorcode": "#b7791f"
+    },
+    {
+      "id": "8",
+      "color": "Pink",
+      "colorcode": "#D29380"
+    }
+  ]
+  
+  export const sofasizes = [
+    {
+      "id": "1",
+      "size": "1.5 Seater"
+    },
+    {
+      "id": "2",
+      "size": "2 Seater"
+    },
+    {
+      "id": "3",
+      "size": "2.5 Seater"
+    },
+    {
+      "id": "4",
+      "size": "3 Seater"
+    },
+    {
+      "id": "5",
+      "size": "3.5 Seater"
+    },
+    {
+      "id": "6",
+      "size": "4 Seater"
+    },
+    {
+      "id": "7",
+      "size": "4.5 Seater"
+    },
+    {
+      "id": "8",
+      "size": "5 Seater"
+    },
+    {
+      "id": "9",
+      "size": "5.5 Seater"
+    },
+    {
+      "id": "10",
+      "size": "6 Seater"
+    },
+    {
+      "id": "11",
+      "size": "7 Seater"
+    },
+    {
+      "id": "12",
+      "size": "8 Seater"
+    },
+    {
+      "id": "13",
+      "size": "10 Seater"
+    }
+  ]
+
 
   export default sofas
