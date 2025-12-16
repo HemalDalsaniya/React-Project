@@ -1,37 +1,38 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import sofabeds, {sofacolors, sofabedsizes} from '../data/sofabeds'
 
 const SofabedsContent = () => {
     const [sortOrder, setSortOrder] = useState('');
     const [isColorOpen, setIsColorOpen] = useState(true);
-    const [sofacolors, setSofacolors] = useState([]);
+    // const [sofacolors, setSofacolors] = useState([]);
     const [isSizeOpen, setIsSizeOpen] = useState(true);
-    const [sofabedsizes, setSofabedsizes] = useState([]);
+    // const [sofabedsizes, setSofabedsizes] = useState([]);
     const [isPriceOpen, setIsPriceOpen] = useState(true);
-    const [sofabeds, setSofabeds] = useState([]);
+    // const [sofabeds, setSofabeds] = useState([]);
     const [colorFilter, setColorFilter] = useState([]); // Changed to array for multiple colors
     const [sizeFilter, setSizeFilter] = useState([]);
     const [priceFilter, setPriceFilter] = useState('');
 
     const navigate = useNavigate();
 
-    useEffect(() => {
-        fetch('http://localhost:3000/sofacolors')
-            .then((response) => response.json())
-            .then((data) => setSofacolors(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch('http://localhost:3000/sofacolors')
+    //         .then((response) => response.json())
+    //         .then((data) => setSofacolors(data));
+    // }, []);
 
-    useEffect(() => {
-        fetch('http://localhost:3000/sofabedsizes')
-            .then((response) => response.json())
-            .then((data) => setSofabedsizes(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch('http://localhost:3000/sofabedsizes')
+    //         .then((response) => response.json())
+    //         .then((data) => setSofabedsizes(data));
+    // }, []);
 
-    useEffect(() => {
-        fetch('http://localhost:3000/sofabeds')
-            .then((response) => response.json())
-            .then((data) => setSofabeds(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch('http://localhost:3000/sofabeds')
+    //         .then((response) => response.json())
+    //         .then((data) => setSofabeds(data));
+    // }, []);
 
     // Filtered products
     const filteredProducts = sofabeds.filter((product) => {

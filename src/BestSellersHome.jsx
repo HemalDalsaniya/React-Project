@@ -61,10 +61,10 @@ const BestSellersHome = () => {
       setCurrentIndex((prevIndex) => prevIndex - 1); 
     }
   };
-
+ 
   const progress = (currentIndex / (currentLink ? currentLink.images.length - 4 : 1)) * 100;
 
-  return (
+  return ( 
     <div className="bg-white px-40 pt-14 mb-12">
       <div className="flex justify-between mb-8">
         <h1 className="text-4xl font-bold justify-start">Best Seller</h1>
@@ -107,7 +107,7 @@ const BestSellersHome = () => {
       </div>
 
       {/* Carousel Images and Details */}
-      {LinkId && currentLink && (
+      {LinkId && currentLink && ( console.log(currentLink), console.log(LinkId),
         <div className="flex justify-start gap-8">
           {currentLink.images.slice(currentIndex, currentIndex + 4).map((image, index) => (
             <div key={index} className="space-y-2">
@@ -123,7 +123,7 @@ const BestSellersHome = () => {
               <h3 className="text-gray-900 font-bold">{currentLink.title[currentIndex + index]}</h3> 
               <p className="text-gray-900">{currentLink.size[currentIndex + index]}</p>
               <p className="text-gray-900">{currentLink.price[currentIndex + index]}</p> 
-            </div>
+            </div>  
           ))}
         </div>
       )}

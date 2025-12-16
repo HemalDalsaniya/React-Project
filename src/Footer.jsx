@@ -92,7 +92,8 @@ const Footer = () => {
         >My Account
         </Link>
         </div>
-       </ul>     
+       </ul> 
+           
       </div>
 
       <div className="flex flex-col py-16 space-y-6">

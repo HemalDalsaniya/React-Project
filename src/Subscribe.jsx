@@ -41,6 +41,7 @@ const Subscribe = () => {
          {...register("Email", {
             required: "This Field is required",
           })} />
+
          <button type="submit" className="bg-[#586A4D] rounded-full text-white text-center w-60 h-13">SIGN UP</button>
       
 

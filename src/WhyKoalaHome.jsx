@@ -1,20 +1,19 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios'; 
+import whyKoala from './data/koala'
 
 const WhyKoalaHome = () => {
-    const [whyKoala, setWhyKoala] = useState([]); 
+    // const [whyKoala, setWhyKoala] = useState([]); 
 
-    useEffect(() => {
+    // useEffect(() => {
     
-        axios.get('http://localhost:3000/whyKoala')
-          .then(response => {
-           // console.log(response.data); 
-            setWhyKoala(response.data); 
-          })
-          .catch(error => {
-            console.error('Error fetching about us data:', error);
-          });
-    }, []);  
+    //     axios.get('http://localhost:3000/whyKoala')
+    //       .then(response => {
+    //        // console.log(response.data); 
+    //         setWhyKoala(response.data); 
+    //       })
+    //       .catch(error => {
+    //         console.error('Error fetching about us data:', error);
+    //       });
+    // }, []);  
 
     return (
         <div className="bg-white px-40 pt-14 mb-10 ">

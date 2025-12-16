@@ -36,7 +36,7 @@ const NewArrivalsHome = () => {
     { id: 4, name: "Outdoor", images: [] }
   ];
 
-  const currentLink = links.find((link) => link.id === LinkId);
+  const currentLink = links.find((link) => link.id === LinkId); 
 
   const handleLinkClick = (id) => {
     setLinkId(id === LinkId ? null : id);

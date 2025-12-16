@@ -24,13 +24,12 @@ const Categories = () => {
         }
       ];
 
-
   return (
     <>
       <div className="bg-white px-40 pt-14">
         <h1 className="text-4xl font-bold mb-8">Categories</h1> 
 
-        <div className="flex justify-between gap-8 ">          
+        <div className="flex justify-between gap-8">          
           {categoriesData.map((cat) => (
           <div key={cat.id}>
           <div className="rounded-xl">

@@ -5,7 +5,7 @@ import Searchicon from '/icons/Searchicon.png';
 import Usericon from '/icons/Usericon.png';
 import Carticon from '/icons/Carticon.png'; 
 import { useNavigate } from 'react-router-dom';
-import Search from './Search';
+import Search from './Search'; 
 
 const Head = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -52,18 +52,20 @@ const Head = () => {
              
           <ul className="flex">
 
-              <div className="flex items-center w-96 justify-start cursor-pointer">
-                <li className="relative z-50">
-                  <div id="logo">
+            <div className="flex items-center w-96 justify-start cursor-pointer">
+              <li className="relative z-50"> 
+                <div id="logo"> 
+                  <a href="/">
                     <img
                       src={Logo}  
                       alt="Logo" 
                       width="auto"
                       height="auto" 
-                    />
-                  </div>
-                </li>
-              </div>
+                    /> 
+                  </a>
+                </div>
+              </li>
+            </div>
 
             <div className="flex w-200 bg-white items-center justify-center font-bold">
               {!isSearchOpen && ( 
@@ -76,56 +78,6 @@ const Head = () => {
                    <li className="relative group">
                     <a href="/collections/sofabeds" className="text-gray-700 py-4 px-1 cursor-pointer hover:underline hover:decoration-2 hover:underline-offset-8">Sofa Beds</a>
                   </li>
-
-                 {/* <li 
-                    className="relative"
-                    onMouseOver={handleSofasMouseOver}
-                    onMouseLeave={handleSofasMouseLeave}
-                  >
-                    <Link
-                      to="/collections/sofas"
-                      className="text-gray-700 hover:underline hover:decoration-2 hover:underline-offset-8"
-                    >
-                      Sofas
-                      <svg className="size-5 text-gray-900 float-end m-0.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                        <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
-                      </svg>
-                    </Link>
-      
-          <div
-          className={`fixed inset-0 top-26 transform transition-transform  duration-300 ease-in-out 
-            ${ isSofasHovered ? 'opacity-100 -translate-y-5': 'opacity-0 w-0 h-0' }`
-          }  onMouseEnter={()=> setIsSofasHovered(true)}  onMouseLeave={()=> setIsSofasHovered(false)} >
-
-       {isSofasHovered && (
-       <div className="bg-white shadow-lg px-40 pt-12 pb-8"  >
-        
-       <div className="flex justify-between mb-5">
-        <h1 className="text-3xl font-bold text-black justify-start">Sofas</h1>
-        <Link className="font-bold rounded-full h-14 w-56 p-4 text-center text-white bg-[#586A4D]" to="/collections/sofas">SHOP FOR SOFAS</Link> 
-        </div>
-
-        <div className="grid grid-cols-7 justify-start gap-x-4 gap-y-8">  
-          {sofas[0].images.map((image, index) => (
-           <div key={index}>
-            <Link to={`/collections/${sofas[0].route[index]}`} >
-             <img
-                key={index}
-                src={image}
-                alt="images"
-                className="rounded-lg w-55 h-40 hover:opacity-85 transition-opacity " href
-              />
-              </Link>
-              <h3 className=" text-gray-900 font-semibold mt-2">{sofas[0].title[index]}</h3>
-          </div>
-          ))}
-        </div>
-      </div>
-      )}
-
-      </div>
-
-      </li > */}
                   
   <li
   className="relative"
@@ -240,56 +192,6 @@ const Head = () => {
       </div>
 
       </li>
-
-                  {/* <li className="relative"
-                    onMouseOver={() => setIsBedroomHovered(true)}
-                    onMouseLeave={() => setIsBedroomHovered(false)}>
-                  <Link
-                    to="/collections/bedroom"
-                    className="text-gray-700 hover:underline hover:decoration-2 hover:underline-offset-8"
-                  >
-                    Bedroom
-                    <svg className="size-5 text-gray-900 float-end m-0.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                      <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
-                    </svg>
-                  </Link> 
-          
-          <div
-          className={`fixed inset-0 top-26 transform transition-transform  duration-300 ease-in-out ${
-          isBedroomHovered ? 'opacity-100 -translate-y-5 ': 'opacity-0 w-0 h-0' }`
-          }>
-
-       {isBedroomHovered && (
-       <div className="bg-white shadow-lg px-40 pt-12 pb-8" onMouseEnter={()=> setIsBedroomHovered(true)}>
-        
-       <div className="flex justify-between mb-5">
-        <h1 className="text-3xl font-bold text-black justify-start">Bedroom</h1>
-        <Link className="font-bold rounded-full h-14 w-60 p-4 text-center text-white bg-[#586A4D]" to="/collections/bedroom">SHOP FOR BEDROOM</Link> 
-        </div>
-        
-        <div className="grid grid-cols-7 justify-start gap-x-4 gap-y-8">
-          {bedroom[0].images.map((image, index) => (
-           <div key={index}>
-            <Link to={`/collections/${bedroom[0].route[index]}`} >
-             <img
-                key={index}
-                src={image}
-                alt="images"
-                className="rounded-lg w-55 h-40 hover:opacity-85 transition-opacity "
-              /> 
-              </Link>
-              <h3 className=" text-gray-900 font-semibold mt-2">{bedroom[0].title[index]}</h3>
-          </div>
-          ))}
-        </div>
-        
-      </div>
-      )}
-      
-      </div>
-
-                  </li> */}
-
                   <li>
                   <Link
                     to=""

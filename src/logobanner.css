@@ -8,7 +8,7 @@
   }
   
   .animate-scroll-logos {
-    animation: scroll-logos 15s linear infinite;
+    animation: scroll-logos 15s linear infinite ;
     display: flex;
     white-space: nowrap;
   }

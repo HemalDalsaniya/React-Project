@@ -20,7 +20,7 @@ const Contact = () => {
   const onSubmit = async (data) => {
     try {
       // Send a POST request to the json-server endpoint
-      const response = await axios.post('http://localhost:3000/registrations', data);
+      const response = await axios.post('http://localhost:3000/registrations', data); 
 
       if (response.status === 201) {
         console.log('Form submitted successfully!', response.data);
@@ -41,7 +41,7 @@ const Contact = () => {
         <Head />
 
         <div className="py-12 w-[700px] justify-self-center">
-          <div className="rounded">
+          {/* <div className="rounded"> */}
             <div className="border-1 px-3 py-6">
               <h1 className="text-3xl font-semibold">Register Here</h1>
             </div>
@@ -62,7 +62,7 @@ const Contact = () => {
                       message: "Name must only contain letters",
                     },
                     maxLength: {
-                      value: 50,
+                      value: 20,
                       message: "Name cannot exceed 20 characters",
                     },
                     minLength: {
@@ -160,8 +160,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-        </div>
-
+        
         <Subscribe />
         <Footer />
       </div>

@@ -3,11 +3,10 @@ import { useState,useEffect } from 'react';
 
 const Header = () => {
 
-  const msg = [
+  const msg = [ 
     "Free delivery on any mattress Australia-wide*",
     "World class warranty, up to 10 years",
-    "Try it properly with 120-day free returns"
-    
+    "Try it properly with 120-day free returns"   
   ];
   const [currentMsg, setCurrentMsg] = useState(0);
 
@@ -19,10 +18,8 @@ const Header = () => {
     return () => clearInterval(int);
   }, []);
 
-    
-
   return (
-     <>
+  <>
    <div className="flex py-2 px-40 bg-zinc-100">
    <nav>
 
@@ -34,7 +31,7 @@ const Header = () => {
             <path d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" />
           </svg>
           <div className="absolute hidden group-hover:block bg-gray-100 text-gray-700 w-48 rounded-b-lg">
-            <Link to="/pages/whykoala" className="block py-2 px-4 bg-white hover:bg-gray-100 rounded-t-lg" >Why Koala</Link>
+            <Link to="/pages/whykoala" className="block py-2 px-4 bg-white hover:bg-gray-100 rounded-t-lg">Why Koala</Link>
             <Link to="" className="block py-2 px-4 bg-white hover:bg-gray-100">Koala Second Home</Link>
             <Link to="" className="block py-2 px-4 bg-white hover:bg-gray-100 rounded-b-lg">Sydney Showroom</Link>
           </div>
@@ -73,7 +70,7 @@ const Header = () => {
 
           <div className="absolute hidden group-hover:block bg-gray-100 text-gray-700 w-72 right-0 rounded-b-lg">
            
-           <Link to="" className="block py-2 px-4 bg-zinc-200 hover:bg-gray-100 rounded-t-lg " >
+           <Link to="" className="block py-2 px-4 bg-zinc-200 hover:bg-gray-100 rounded-t-lg">
             {/* Australia */}
             <div className="flex justify-between">
               <div className="flex justify-start gap-x-2">

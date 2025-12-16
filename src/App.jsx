@@ -16,17 +16,17 @@ import PrivacyPolicy from './policies/PrivacyPolicy';
 import WebsiteTerms from './policies/WebsiteTerms';
 import TermsOfServices from './policies/TermsOfServices';
 import PromotionTerms from './policies/PromotionTerms';
-import PageNotFound from './PageNotFound';
+import PageNotFound from './PageNotFound'; 
 
 const App = () => {
 
   return (
     <Router>
-      <div className="flex">
+      <div className="flex"> 
 
         <Chatbox/>  
         
-        <div className="flex">
+        <div className="flex"> 
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/pages/contact" element={<Contact/>}/>
@@ -43,7 +43,7 @@ const App = () => {
             <Route path="/policies/privacypolicy" element={<PrivacyPolicy/>}/>
             <Route path="/policies/websiteterms" element={<WebsiteTerms/>}/>
             <Route path="/policies/termsofservices" element={<TermsOfServices/>}/>
-            <Route  path="/policies/promotionterms" element={<PromotionTerms/>}/>
+            <Route path="/policies/promotionterms" element={<PromotionTerms/>}/>
 
             <Route path="*" element={<PageNotFound/>}/>  
           </Routes>

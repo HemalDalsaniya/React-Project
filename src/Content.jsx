@@ -31,7 +31,6 @@ const Content = () => {
         <div className="text-2xl font-bold py-6"><p>Koala Polar + Mattress. Keep your cool all year long.</p></div>
         <div className="flex text-black bg-white rounded-full w-72 h-14 font-semibold text-md items-center justify-center" onClick={() => navigate('/collections/bedroom')}>SHOP NOW</div>
        </div>
-       
 
        </div>
       </div>
@@ -56,7 +55,6 @@ const Content = () => {
           height="25px" 
       />World-class warranty
       </div>
-
 
     </div>
   )

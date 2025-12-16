@@ -29,9 +29,9 @@ const handleClick = () => {
 
 useEffect(() => { 
   if (window.location.hash === '#compare' && compareRef.current) {
-    compareRef.current.scrollIntoView({ behavior: 'smooth' });
-  }
-}, []);
+    compareRef.current.scrollIntoView({ behavior: 'smooth' }); 
+  } 
+}, []); 
 
 
   const links = [
@@ -91,6 +91,7 @@ useEffect(() => {
     <div >
       <Header/>
       <Head/>
+
       <div >
       <div className="bg-white px-40 pt-14 mb-18">
         
@@ -249,7 +250,6 @@ useEffect(() => {
           />
       </div>
   
-
     </div>
 
       <Subscribe/>

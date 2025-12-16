@@ -61,8 +61,8 @@ const [LinkId, setLinkId] = useState(1);
            <img
              width="100%" 
              height="auto"
-             src="//au.koala.com/cdn/shop/files/Desktop_HP_Hero_Banner_-_8_3_1920x720px.jpg?v=1727768967&width=3840"            
-           ></img>
+             src="//au.koala.com/cdn/shop/files/Desktop_HP_Hero_Banner_-_8_3_1920x720px.jpg?v=1727768967&width=3840">
+          </img>
      
             <div className="text-overlay absolute left-0 right-0 bottom-0 flex items-center text-white px-40">
                <div className="py-16 justify-left">
@@ -78,13 +78,14 @@ const [LinkId, setLinkId] = useState(1);
                <div className="text-md py-6 mx-auto w-3xl"><p>Good value delivered direct to your door, so you can enjoy your best life.</p></div> 
             </div>
 
-          <div className="w-full flex relative mb-16">
+          <div className="w-full flex mb-16">
            <img
              width="100%" 
              height="auto"
-             src="/images/whyKoala/whyKoala4.png"              
-           ></img>
-            </div>
+             src="/images/whyKoala/whyKoala4.png" >
+
+           </img>
+          </div>
 
             <div className="w-full flex mb-24 px-40">
               <div className="flex-1 justify-start px-20 py-30 space-y-2">
@@ -98,8 +99,9 @@ const [LinkId, setLinkId] = useState(1);
                width="100%" 
                height="100%"
                src="/images/whyKoala/whyKoala5.png"   
-               className="rounded-lg"           
-              ></img></div> 
+               className="rounded-lg">
+              </img>
+              </div> 
             </div>
 
             <div className="w-full flex mb-24 px-40">

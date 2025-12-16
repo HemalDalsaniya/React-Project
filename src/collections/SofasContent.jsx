@@ -1,37 +1,37 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-//import { Carousel } from "@material-tailwind/react";
+import sofas, {sofasizes, sofacolors} from '../data/sofas'
 const SofasContent = () => {
     const [sortOrder, setSortOrder] = useState('');
     const [isColorOpen, setIsColorOpen] = useState(true);
-    const [sofacolors, setSofacolors] = useState([]);
+    // const [sofacolors, setSofacolors] = useState([]);
     const [isSizeOpen, setIsSizeOpen] = useState(true);
-    const [sofasizes, setSofasizes] = useState([]);
+    // const [sofasizes, setSofasizes] = useState([]);
     const [isPriceOpen, setIsPriceOpen] = useState(false);
-    const [sofas, setSofas] = useState([]);
+    // const [sofas, setSofas] = useState([]);
     const [colorFilter, setColorFilter] = useState([]); // Changed to array for multiple colors
     const [sizeFilter, setSizeFilter] = useState([]);
     const [priceFilter, setPriceFilter] = useState('');
 
     const navigate = useNavigate();
 
-    useEffect(() => {
-        fetch('http://localhost:3000/sofacolors')
-            .then((response) => response.json())
-            .then((data) => setSofacolors(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch('http://localhost:3000/sofacolors')
+    //         .then((response) => response.json())
+    //         .then((data) => setSofacolors(data));
+    // }, []);
 
-    useEffect(() => {
-        fetch('http://localhost:3000/sofasizes')
-            .then((response) => response.json())
-            .then((data) => setSofasizes(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch('http://localhost:3000/sofasizes')
+    //         .then((response) => response.json())
+    //         .then((data) => setSofasizes(data));
+    // }, []);
 
-    useEffect(() => {
-        fetch('http://localhost:3000/sofas')
-            .then((response) => response.json())
-            .then((data) => setSofas(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch('http://localhost:3000/sofas')
+    //         .then((response) => response.json())
+    //         .then((data) => setSofas(data));
+    // }, []);
   
       // Filtered products
       const filteredProducts = sofas.filter((product) => {

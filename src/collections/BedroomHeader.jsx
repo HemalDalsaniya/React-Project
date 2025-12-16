@@ -1,22 +1,22 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { useState } from 'react';
+import { bedroomheader } from '../data/bedroom'
 
 const BedroomHeader = () => {
-  const [bedroomheader, setBedroomheader] = useState([]);
+  // const [bedroomheader, setBedroomheader] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [initialIndex, setInitialIndex] = useState(0);
 
-  useEffect(() => {
-    axios.get('http://localhost:3000/bedroomheader') 
-      .then(response => {
-        setBedroomheader(response.data);
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios.get('http://localhost:3000/bedroomheader') 
+  //     .then(response => {
+  //       setBedroomheader(response.data);
+  //     })
+  //     .catch(error => {
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }, []);
 
   const handleMouseDown = (e) => {
     setStartX(e.clientX);

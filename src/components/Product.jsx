@@ -20,6 +20,7 @@ const Product = () => {
     const [isDescriptionOpen, setIsDescriptionOpen] = useState(false);
     const [isMaterialOpen, setIsMaterialOpen] = useState(false);
     const dispatch = useDispatch();
+    
     const cartItems = useSelector((state) => state.cart.items);
     const quantities = useSelector((state) => state.cart.quantities);
 
@@ -56,7 +57,7 @@ const Product = () => {
                 'Content-Type': 'application/json',
             },
         });
-    }
+    } 
     // Navigate to the cart page
     navigate('/cart');
 };

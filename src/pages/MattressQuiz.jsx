@@ -62,11 +62,11 @@ const MattressQuiz = () => {
     const updatedAnswers = [...answers, answer];
     setAnswers(updatedAnswers);
 
-    if (currentSlide < questions.length - 1) {
+    // if (currentSlide < questions.length - 1) {
+    //   setCurrentSlide(currentSlide + 1);
+    // } else {
       setCurrentSlide(currentSlide + 1);
-    } else {
-      setCurrentSlide(currentSlide + 1);
-    }
+    // }
   };
 
   const handleEmailSubmit = async () => {
@@ -77,7 +77,7 @@ const MattressQuiz = () => {
   
     try {
       // Save answers to db.json
-      const saveResponse = await fetch("http://localhost:3000/quizresponses", {
+      const saveResponse = await fetch("http://localhost:3000/quizresponses", { 
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -102,6 +102,12 @@ const MattressQuiz = () => {
         templateParams,
        // 'qYCi3QToN0C2uVWdg' // Replace with your EmailJS user ID
        'g_iC8lfeqHJiC0Tit'
+
+      //  '', // Replace with your EmailJS service ID
+      //   '', // Replace with your EmailJS template ID
+      //   templateParams,
+      //  // 'qYCi3QToN0C2uVWdg' // Replace with your EmailJS user ID
+      //  ''
       );
   
       if (emailResponse.status !== 200) {
@@ -109,6 +115,7 @@ const MattressQuiz = () => {
       }
   
       alert("Thank you! Your responses have been saved and emailed.");
+      setEmail("");
     } catch (error) {
       console.error("Error:", error);
       alert(`Something went wrong: ${error.message}`);
@@ -123,7 +130,7 @@ const MattressQuiz = () => {
 
         <div>
           <div className="flex h-150 mx-10 my-20 bg-zinc-100 rounded-xl text-[#586A4D]">
-            <div className="w-1/2 flex flex-col px-28 py-28 text-[#586A4D] overflow-y-scroll">
+            <div className="w-1/2 flex px-28 py-28 text-[#586A4D] overflow-y-scroll">
               {currentSlide < questions.length ? (
                 <div>
                   <h2 className="text-4xl font-bold mb-10">
@@ -192,4 +199,3 @@ const MattressQuiz = () => {
 };
 
 export default MattressQuiz;
-

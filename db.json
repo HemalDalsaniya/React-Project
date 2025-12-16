@@ -1558,35 +1558,14 @@
   ],
   "cart": [
     {
-      "id": "6",
-      "title": "Balmain Bed Base",
-      "size": "Queen",
-      "price": "750",
-      "color": "Timber",
-      "image": "/images/bedroom/bedroom29.png",
-      "review": "4.8",
-      "quantities": 3
-    },
-    {
-      "id": "111",
+      "id": "122",
       "title": "OG Bed",
-      "size": "3 Seater",
-      "price": "1290",
-      "color": "Beige",
-      "image": "/images/sofas/sofa23.png",
+      "size": "2.5 Seater",
+      "price": "1590",
+      "color": "Green",
+      "image": "/images/sofas/sofa54.png",
       "review": "4.6",
       "quantities": 2
-    },
-    {
-      "id": "78",
-      "title": "Suffolk Sofa ",
-      "size": "3.5 Seater",
-      "price": "1250",
-      "color": "Green",
-      "image": "/images/sofas/sofa24.png",
-      "review": "4.7",
-      "description": "The Suffolk Sofa is a designer sofa, made for real people. With modern looks, washable covers and tool-free assembly, you can upgrade your style without changing your whole lifestyle.",
-      "quantities": 1
     }
   ],
   "quizresponses": [

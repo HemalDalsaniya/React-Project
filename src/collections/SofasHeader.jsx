@@ -1,22 +1,22 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { useState } from 'react';
+import {sofasheader} from '../data/sofas'
 
 const SofasHeader = () => {
-  const [sofasheader, setSofasheader] = useState([]);
+  // const [sofasheader, setSofasheader] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [initialIndex, setInitialIndex] = useState(0);
 
-  useEffect(() => {
-    axios.get('http://localhost:3000/sofasheader') 
-      .then(response => {
-        setSofasheader(response.data);
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios.get('http://localhost:3000/sofasheader') 
+  //     .then(response => {
+  //       setSofasheader(response.data);
+  //     })
+  //     .catch(error => {
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }, []);
 
   const handleMouseDown = (e) => {
     setStartX(e.clientX);
@@ -52,7 +52,7 @@ const SofasHeader = () => {
         onMouseLeave={handleMouseLeave}
       >
         <div className="flex justify-between gap-x-12">
-          {sofasheader.slice(currentIndex, currentIndex + 6).map((sofa) => (
+          {sofasheader.slice(currentIndex, currentIndex + 6).map((sofa) => ( 
             <div key={sofa.id}>
               <a className="rounded-xl" href={`${sofa.url}`}>
                 <img
@@ -70,8 +70,9 @@ const SofasHeader = () => {
       <div className="w-full h-2 bg-gray-300 mt-7 rounded-full">
         <div
           className="h-full bg-[#586A4D] rounded-full"
-          style={{ width: `${progress}%` }}
-        ></div>
+          style={{ width: `${progress}%` }}>
+
+        </div>
       </div>
     </div>
   );

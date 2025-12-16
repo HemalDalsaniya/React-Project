@@ -1,21 +1,20 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios'; 
 import { Link } from 'react-router-dom';
+import { aboutUs } from './data/koala'
 
 const AboutUs = () => {
-    const [aboutUs, setAboutUs] = useState([]); 
+    // const [aboutUs, setAboutUs] = useState([]); 
 
-    useEffect(() => {
+    // useEffect(() => {
         
-        axios.get('http://localhost:3000/aboutUs')
-          .then(response => {
-           // console.log(response.data);
-            setAboutUs(response.data); 
-          })
-          .catch(error => {
-            console.error('Error fetching about us data:', error);
-          });
-    }, []);  
+    //     axios.get('http://localhost:3000/aboutUs')
+    //       .then(response => {
+    //        // console.log(response.data);
+    //         setAboutUs(response.data); 
+    //       })
+    //       .catch(error => {
+    //         console.error('Error fetching about us data:', error);
+    //       });
+    // }, []);  
 
     return (
         <div className="bg-white px-40 pt-14 mb-16 ">
@@ -23,6 +22,7 @@ const AboutUs = () => {
             <h1 className="text-4xl font-bold justify-start">A little about us</h1>
             <Link  className="border-1 font-bold rounded-full h-14 w-44 p-4 text-center" to="/pages/whykoala">LEARN MORE</Link>
             </div>
+            
             <div className="flex relative">
             <img src="//au.koala.com/cdn/shop/files/Forest_image_1.png?v=1732492791&width=1680" alt="about us" className="rounded-xl w-full h-48" />
         

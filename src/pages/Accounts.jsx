@@ -43,8 +43,10 @@ const Accounts = () => {
       <div>
         <Header />
         <Head />
-        
-        <div className="bg-white px-40 pt-14 mb-12 cursor-pointer">
+
+        <div>
+
+        <div className="bg-white px-40 pt-14 mb-12 cursor-pointer"> 
           <div className="flex gap-8">          
             {contactData.map((con) => (
               <div key={con.id}>
@@ -75,6 +77,8 @@ const Accounts = () => {
           />
         )}
 
+        </div>
+
         <Subscribe />
         <Footer />
       </div>
@@ -82,4 +86,4 @@ const Accounts = () => {
   );
 };
 
-export default Accounts
+export default Accounts 
