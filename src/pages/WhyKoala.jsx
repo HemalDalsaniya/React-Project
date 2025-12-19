@@ -58,9 +58,9 @@ const [LinkId, setLinkId] = useState(1);
      <div className="w-full bg-white ">
            <div>
            <div className=" w-full flex relative cursor-pointer">
-           <img
-             width="100%" 
-             height="auto"
+           <img className="w-full max-w-full h-auto"
+            //  width="100%" 
+            //  height="auto"
              src="//au.koala.com/cdn/shop/files/Desktop_HP_Hero_Banner_-_8_3_1920x720px.jpg?v=1727768967&width=3840">
           </img>
      
@@ -79,9 +79,9 @@ const [LinkId, setLinkId] = useState(1);
             </div>
 
           <div className="w-full flex mb-16">
-           <img
-             width="100%" 
-             height="auto"
+           <img className="w-full max-w-full h-auto"
+            //  width="100%" 
+            //  height="auto"
              src="/images/whyKoala/whyKoala4.png" >
 
            </img>
@@ -95,11 +95,11 @@ const [LinkId, setLinkId] = useState(1);
                                              so your money just pays for the best products in the market at the best possible price.</p></div> 
               </div>
               <div className="flex-1">
-              <img
-               width="100%" 
-               height="100%"
+              <img 
+              //  width="100%" 
+              //  height="100%"
                src="/images/whyKoala/whyKoala5.png"   
-               className="rounded-lg">
+              className="w-full max-w-full h-auto rounded-lg">
               </img>
               </div> 
             </div>
@@ -107,13 +107,13 @@ const [LinkId, setLinkId] = useState(1);
             <div className="w-full flex mb-24 px-40">
             <div className="video-container flex-1">
               <video
-              width="100%" 
-              height="100%"
+              // width="100%" 
+              // height="100%"
               autoPlay={true} 
               loop 
               muted={true}
               playsInline={true}
-              className="rounded-lg"
+              className=" w-full max-w-full h-auto rounded-lg"
               >
              <source src="//au.koala.com/cdn/shop/videos/c/vp/a01247e643c340f883a21e645c78f0c3/a01247e643c340f883a21e645c78f0c3.HD-720p-2.1Mbps-41793038.mp4?v=0" type="video/mp4" />
             </video>
@@ -136,13 +136,13 @@ const [LinkId, setLinkId] = useState(1);
               </div>
               <div className="video-container flex-1">
               <video
-              width="100%" 
-              height="100%"
+              // width="100%" 
+              // height="100%"
               autoPlay={true} 
               loop 
               muted={true}
               playsInline={true}
-              className="rounded-lg w-full"
+              className=" w-full max-w-full h-auto rounded-lg"
               >
              <source src="//au.koala.com/cdn/shop/videos/c/vp/c0d048a2bdbe4be3a9c48fb95d66e00d/c0d048a2bdbe4be3a9c48fb95d66e00d.HD-1080p-3.3Mbps-35399727.mp4?v=0" type="video/mp4" />
             </video>
@@ -188,13 +188,13 @@ const [LinkId, setLinkId] = useState(1);
             <img 
               src={image} 
               alt={`Carousel Image ${currentIndex + index + 1}`} 
-              className="rounded-lg w-95 h-65 hover:opacity-85 transition-opacity" 
+              className="rounded-lg w-full max-w-sm h-65 hover:opacity-85 transition-opacity" 
             />
           </div>
             {/* Review Details */}
-            <div className="text-gray-900 space-y-2 w-95">
+            <div className="text-gray-900 space-y-2 w-full max-w-sm">
               <p className="text-gray-900 font-bold">{currentLink.title[currentIndex + index]}</p>
-              <p className="text-gray-900 w-95 h-30">{currentLink.description[currentIndex + index]}</p>
+              <p className="text-gray-900 w-full max-w-sm h-30">{currentLink.description[currentIndex + index]}</p>
             </div>
           </div>
         ))}

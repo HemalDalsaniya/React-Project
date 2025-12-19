@@ -23,7 +23,7 @@ const Header = () => {
    <div className="flex py-2 px-40 bg-zinc-100">
    <nav>
 
-    <ul className="flex justify-between">
+    <ul className="flex justify-between w-full intems-center">
       <div className="flex items-center w-100 justify-start cursor-pointer z-50">
         <li className="relative group">
           <span className="gap-x-0.5 text-gray-700 hover:text-gray-500 py-4 px-1 cursor-pointer]">About</span>

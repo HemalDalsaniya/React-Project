@@ -88,7 +88,7 @@ useEffect(() => {
 
   return (
     <>
-    <div >
+    <div className="scroll-smooth max-w-screen overflow-x-hidden">
       <Header/>
       <Head/>
 
@@ -104,7 +104,7 @@ useEffect(() => {
       </div>
 
      <div className="cursor-pointer">
-      <div className="flex space-x-4 mb-8 justify-center items-center">
+      <div className="flex space-x-4 mb-8 justify-center items-center ">
         {links.map((link) => (
           <button
             key={link.id}
@@ -127,12 +127,12 @@ useEffect(() => {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="rounded-lg w-95 h-80 hover:opacity-85 transition-opacity "
+                className="rounded-lg w-full max-w-sm h-80 hover:opacity-85 transition-opacity "
               />
               <div className="flex text-gray-900 justify-start gap-1"><span>
               <img className="h-4 w-22 mt-1" alt="star" src="/images/rate/stars.png"/></span> {links[0].rate[index]}</div>
               <h3 className=" text-gray-900 font-bold">{links[0].title[index]}</h3>
-              <p className="text-gray-900 w-95">{links[0].description[index]}</p>
+              <p className="text-gray-900 w-full max-w-sm">{links[0].description[index]}</p>
               <p className="text-gray-900 font-bold">{links[0].price[index]}</p><br/>
               <Link to="/collections/bedroom" className="bg-[#586A4D] rounded-full text-white text-center font-bold py-4 px-35">SHOP NOW</Link>
               </div>    
@@ -148,12 +148,12 @@ useEffect(() => {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="rounded-lg w-95 h-80 hover:opacity-85 transition-opacity "
+                className="rounded-lg w-full max-w-sm h-80 hover:opacity-85 transition-opacity "
               />
               <div className="flex text-gray-900 justify-start gap-1"><span>
               <img className="h-4 w-22 mt-1" alt="star" src="/images/rate/stars.png"/></span> {links[1].rate[index]}</div>
               <h3 className=" text-gray-900 font-bold">{links[1].title[index]}</h3>
-              <p className="text-gray-900 w-95">{links[1].description[index]}</p>
+              <p className="text-gray-900 w-full max-w-sm">{links[1].description[index]}</p>
               <p className="text-gray-900 font-bold">{links[1].price[index]}</p><br/>
               <Link to="/collections/bedroom" className="bg-[#586A4D] rounded-full text-white text-center font-bold py-4 px-35">SHOP NOW</Link>
               </div>        
@@ -169,12 +169,12 @@ useEffect(() => {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="rounded-lg w-95 h-80 hover:opacity-85 transition-opacity "
+                className="rounded-lg w-full max-w-sm h-80 hover:opacity-85 transition-opacity "
               />
               <div className="flex text-gray-900 justify-start gap-1"><span>
               <img className="h-4 w-22 mt-1" alt="star" src="/images/rate/stars.png"/></span> {links[2].rate[index]}</div>
               <h3 className=" text-gray-900 font-bold">{links[2].title[index]}</h3>
-              <p className="text-gray-900 w-95">{links[2].description[index]}</p>
+              <p className="text-gray-900 w-full max-w-sm">{links[2].description[index]}</p>
               <p className="text-gray-900 font-bold">{links[2].price[index]}</p><br/>
               <Link to="/collections/bedroom" className="bg-[#586A4D] rounded-full text-white text-center font-bold  py-4 px-35">SHOP NOW</Link>
               </div> 
@@ -190,12 +190,12 @@ useEffect(() => {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="rounded-lg w-95 h-80 hover:opacity-85 transition-opacity "
+                className="rounded-lg w-full max-w-sm h-80 hover:opacity-85 transition-opacity "
               />
               <div className="flex text-gray-900 justify-start gap-1"><span>
               <img className="h-4 w-22 mt-1" alt="star" src="/images/rate/stars.png"/></span> {links[3].rate[index]}</div>
               <h3 className=" text-gray-900 font-bold">{links[3].title[index]}</h3>
-              <p className="text-gray-900 w-95">{links[3].description[index]}</p>
+              <p className="text-gray-900 w-full max-w-sm">{links[3].description[index]}</p>
               <p className="text-gray-900 font-bold">{links[3].price[index]}</p><br/>
               <Link to="/collections/bedroom" className="bg-[#586A4D] rounded-full text-white text-center font-bold py-4 px-35">SHOP NOW</Link>
               </div> 

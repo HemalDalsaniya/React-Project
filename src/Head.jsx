@@ -19,7 +19,7 @@ const Head = () => {
                     "/images/sofas/sofa6.png","/images/sofas/sofa7.png","/images/sofas/sofa8.png"], 
       title:["Sofas", "Sofa Beds", "Modular Sofas", "Chaise Sofas","Corner Sofas","Armchairs","Ottomans",
                     "Sofa Modules","Sofa Covers"],
-   //  route:["sofas","sofabeds","sofas","sofas"]
+    route:["sofas","sofabeds","sofas","sofas","sofas","sofas","sofas","sofas","sofas"]
     }
     ];
     const bedroom = [
@@ -29,7 +29,7 @@ const Head = () => {
                       "/images/bedroom/bedroom10.png","/images/bedroom/bedroom11.png"],
       title:["Mattresses", "Bed Bases", "Bundles","Pillow","Kids","Bedside Tables","Chest of Drawers","Bed Covers & Sheets",
             "Rugs","Mattress Protector","Duvets"],
-     // route:["mattresses","bedbases","bundlesbedroom","koalapillow"]
+     route:["mattresses","bedroom","bedroom","bedroom","bedroom","bedroom","bedroom","bedroom","bedroom","bedroom","bedroom"]
      } 
     ];
     
@@ -104,7 +104,7 @@ const Head = () => {
 
   {/* Dropdown */}
   <div
-    className={`fixed inset-x-0 top-21.5 transform transition-all duration-300 ease-in-out bg-white shadow-lg ${
+    className={`fixed inset-x-0 top-[86px] transform transition-all duration-300 ease-in-out bg-white shadow-lg ${
       isSofasHovered ? 'opacity-100 visible' : 'opacity-0 invisible'
     }`}
   >
@@ -123,13 +123,13 @@ const Head = () => {
         <div className="grid grid-cols-7 justify-start gap-x-4 gap-y-8">
           {sofas[0].images.map((image, index) => (
             <div key={index}>
-              <Link to="/collections/sofas">
-              {/* to={`/collections/${sofas[0].route[index]}`}> */}
+              <Link /*to="/collections/sofas">*/
+               to={`/collections/${sofas[0].route[index]}`}>  
                 <img
                   key={index}
                   src={image}
                   alt="images"
-                  className="rounded-lg w-55 h-40 hover:opacity-85 transition-opacity"
+                  className="rounded-lg w-full max-w-sm object-cover h-40 hover:opacity-85 transition-opacity"
                 />
               </Link>
               <h3 className="text-gray-900 font-semibold mt-2">
@@ -157,7 +157,7 @@ const Head = () => {
           </Link> 
           
           <div
-          className={`fixed inset-x-0 top-21.5 transform transition-all duration-300 ease-in-out bg-white shadow-lg ${
+          className={`fixed inset-x-0 top-[86px] transform transition-all duration-300 ease-in-out bg-white shadow-lg ${
             isBedroomHovered ? 'opacity-100 visible' : 'opacity-0 invisible'
           }`}>
 
@@ -172,13 +172,13 @@ const Head = () => {
         <div className="grid grid-cols-7 justify-start gap-x-4 gap-y-8">
           {bedroom[0].images.map((image, index) => (
            <div key={index}>
-            <Link to="/collections/bedroom">
-             {/* to={`/collections/${bedroom[0].route[index]}`} > */}
+            <Link /*to="/collections/bedroom">*/
+              to={`/collections/${bedroom[0].route[index]}`} > 
              <img
                 key={index}
                 src={image}
                 alt="images"
-                className="rounded-lg w-55 h-40 hover:opacity-85 transition-opacity "
+                className="rounded-lg w-full max-w-sm h-40 object-cover hover:opacity-85 transition-opacity "
               /> 
               </Link>
               <h3 className=" text-gray-900 font-semibold mt-2">{bedroom[0].title[index]}</h3>
@@ -218,32 +218,32 @@ const Head = () => {
               )}
             </div>
 
-            <div className="flex justify-end items-center w-96">
+            <div className="flex justify-end items-center w-96 gap-10">
              
                 <div className="flex items-center">
                   <button onClick={toggleSearch}>
-                    <img className="float-end cursor-pointer gap-0"
+                    <img className="float-end cursor-pointer w-6 h-6"
                          src={Searchicon}  
-                         alt="Search Icon" 
-                         width="40%" height="40%" />
+                         alt="Search Icon" />
+                        {/*   width="40%" height="40%" /> */}
                   </button>
                 </div> 
              
-                <div className="flex items-center float-end">
+                <div className="flex items-center float-end gap-10">
                   <button onClick={() => window.open('/login','_blank')} >
-                    <img className="float-end cursor-pointer gap-0"
+                    <img className="float-end cursor-pointer w-6 h-6"
                          src={Usericon}  
                          alt="User Icon" 
-                         width="40%"
-                         height="40%" 
+                        //  width="40%"
+                        //  height="40%" 
                     />
                   </button>
                   <button onClick={() => navigate('/cart')} >
-                    <img className="float-end cursor-pointer gap-0"
+                    <img className="float-end cursor-pointer w-6 h-6"
                          src={Carticon}  
                          alt="Cart Icon" 
-                         width="40%"
-                         height="40%" 
+                        //  width="40%"
+                        //  height="40%" 
                     />
                   </button>
                 </div>

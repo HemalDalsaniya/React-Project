@@ -376,13 +376,13 @@ export const sofasheader = [
       "id": "1",
       "image": "/images/sofas/sofa9.png",
       "title": "All Sofas",
-      "url": ""
+      "url": "sofas"
     },
     {
       "id": "2",
       "image": "/images/sofas/sofa10.png",
       "title": "Sofas",
-      "url": ""
+      "url": "sofas"
     },
     {
       "id": "3",
@@ -394,37 +394,37 @@ export const sofasheader = [
       "id": "4",
       "image": "/images/sofas/sofa12.png",
       "title": "Modular Sofas",
-      "url": ""
+      "url": "sofas"
     },
     {
       "id": "5",
       "image": "/images/sofas/sofa13.png",
       "title": "Chaise Sofas",
-      "url": ""
+      "url": "sofas"
     },
     {
       "id": "6",
       "image": "/images/sofas/sofa14.png",
       "title": "Corner Sofas",
-      "url": ""
+      "url": "sofas"
     },
     {
       "id": "7",
       "image": "/images/sofas/sofa15.png",
       "title": "Armchairs",
-      "url": ""
+      "url": "sofas"
     },
     {
       "id": "8",
       "image": "/images/sofas/sofa16.png",
       "title": "Ottomans",
-      "url": ""
+      "url": "sofas"
     },
     {
       "id": "9",
       "image": "/images/sofas/sofa17.png",
       "title": "Sofa Modules",
-      "url": ""
+      "url": "sofas"
     }
   ]
 

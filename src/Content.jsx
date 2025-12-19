@@ -13,9 +13,9 @@ const Content = () => {
       <div className="flex items-center justify-center  text-gray-700 pr-1 hover:text-gray-500"><span className="text-xl pr-1">★ ★ ★ ★ ★</span>100,000+ five star reviews</div>
 
       <div className="video-container w-full flex pt-1 relative cursor-pointer">
-      <video
-        width="100%" 
-        height="auto"
+      <video  className="w-full max-w-full h-auto"
+        // width="100%" 
+        // height="auto"
         autoPlay={true} 
         loop 
         muted={true}
@@ -24,7 +24,7 @@ const Content = () => {
         <source src="//au.koala.com/cdn/shop/videos/c/vp/61ed8c57d173414d8bc5dd6671e83ee5/61ed8c57d173414d8bc5dd6671e83ee5.HD-720p-2.1Mbps-41243426.mp4?v=0" type="video/mp4" />
       </video>
 
-       <div className="text-overlay absolute top-0 left-0 right-0 bottom-0 flex items-center text-white px-40">
+       <div className="text-overlay absolute inset-0 flex items-center text-white px-40">
 
         <div className="py-16 justify-left pr-200">
         <h1 className="text-7xl font-bold">The cool change has arrived</h1>

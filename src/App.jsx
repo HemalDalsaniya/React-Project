@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="flex"> 
+      <div className="flex overflow-x-hidden max-w-screen"> 
 
         <Chatbox/>  
         

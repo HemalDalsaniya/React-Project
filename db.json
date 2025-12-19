@@ -1558,15 +1558,14 @@
   ],
   "cart": [
     {
-      "id": "74",
-      "title": "Modern Sofa",
-      "size": "3 Seater",
-      "price": "1690",
-      "color": "Grey",
-      "image": "/images/sofas/sofa20.png",
-      "review": "4.6",
-      "description": "The Koala Modern Sofa is the 2024 Product Review Award Winner, designed with all the generous comfort features we’re famous for, and luxury perks for less.",
-      "quantities": 2
+      "id": "6",
+      "title": "Balmain Bed Base",
+      "size": "Queen",
+      "price": "750",
+      "color": "Timber",
+      "image": "/images/bedroom/bedroom29.png",
+      "review": "4.8",
+      "quantities": 1
     },
     {
       "id": "73",
@@ -1577,16 +1576,6 @@
       "image": "/images/sofas/sofa19.png",
       "review": "4.7",
       "description": "The award-winning Koala Sofa Bed transforms from sofa to bed in seconds, turning any space into a comfy sleep spot. Previously known as the Cushy Sofa Bed.",
-      "quantities": 2
-    },
-    {
-      "id": "9",
-      "title": "the Koala Pillow",
-      "size": "One Size",
-      "price": "155",
-      "color": "White",
-      "image": "/images/bedroom/bedroom32.png",
-      "review": "4.6",
       "quantities": 1
     }
   ],
